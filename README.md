@@ -48,18 +48,21 @@ Stage 5: PDF & Scheduled Connector Delivery (20 PDF/Lead Exporters)
 
 ## Installation Guide
 
-First, clone the repository from GitHub:
+### 1. Claude Code (Plugin Marketplace — Recommended)
+
+Register **TeamOfOne** directly in Claude Code as a plugin marketplace ([docs](https://code.claude.com/docs/en/plugins/overview)):
+
+```text
+/plugin marketplace add silenceminds/TeamOfOne
+/plugin install teamofone-core@teamofone
+```
+
+*(Or install all 790 skills at once with `/plugin install teamofone@teamofone`.)*
+
+Or clone and copy individual skills manually into `~/.claude/skills/` or `.claude/skills/` ([docs](https://code.claude.com/docs/en/skills)):
 
 ```bash
 git clone https://github.com/silenceminds/TeamOfOne.git
-```
-
-### 1. Claude Code
-
-Claude Code discovers skills in your personal (`~/.claude/skills/`) or project (`.claude/skills/`) directory ([docs](https://code.claude.com/docs/en/skills)).
-
-```bash
-# Install the orchestrator + core roles globally
 mkdir -p ~/.claude/skills
 cp -r TeamOfOne/00-orchestrator/teamofone-orchestrator ~/.claude/skills/
 cp -r TeamOfOne/01-executive-strategy/ceo ~/.claude/skills/
@@ -71,6 +74,7 @@ cp -r TeamOfOne/02-engineering-architecture/cto ~/.claude/skills/
 OpenAI Codex reads `SKILL.md` folders from `.agents/skills/` in your project or user directory ([quickstart](https://agentskills.io/skill-creation/quickstart)).
 
 ```bash
+git clone https://github.com/silenceminds/TeamOfOne.git
 mkdir -p .agents/skills
 cp -r TeamOfOne/00-orchestrator/teamofone-orchestrator .agents/skills/
 cp -r TeamOfOne/02-engineering-architecture/cto .agents/skills/
