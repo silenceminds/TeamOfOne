@@ -36,7 +36,7 @@ This Code of Conduct applies within all **TeamOfOne** repository spaces, and als
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers at `[INSERT CONTACT EMAIL]` or by opening a private security/moderation report on [https://github.com/silenceminds/TeamOfOne](https://github.com/silenceminds/TeamOfOne). All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers by opening a private security/moderation report on [https://github.com/silenceminds/TeamOfOne](https://github.com/silenceminds/TeamOfOne). All complaints will be reviewed and investigated promptly and fairly.
 
 All maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
