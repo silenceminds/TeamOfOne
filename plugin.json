@@ -1,0 +1,25 @@
+{
+  "name": "teamofone",
+  "displayName": "TeamOfOne",
+  "version": "1.0.0",
+  "description": "790 modular AI agent skills with a conflict-free 5-stage pipeline for solo founders and one-person companies.",
+  "repository": "https://github.com/silenceminds/TeamOfOne",
+  "license": "MIT",
+  "skills": [
+    "./00-orchestrator",
+    "./01-executive-strategy",
+    "./02-engineering-architecture",
+    "./03-ai-data-automation",
+    "./04-product-design",
+    "./05-marketing-growth",
+    "./06-sales-revenue",
+    "./07-operations-management",
+    "./08-finance-legal",
+    "./09-customer-success-support",
+    "./10-people-contractors",
+    "./11-scheduled-web-research",
+    "./12-social-community-monitoring",
+    "./13-pdf-leads-delivery",
+    "./14-essential-watchdogs"
+  ]
+}

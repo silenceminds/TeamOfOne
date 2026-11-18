@@ -1,0 +1,31 @@
+{
+  "name": "teamofone",
+  "owner": {
+    "name": "silenceminds",
+    "url": "https://github.com/silenceminds/TeamOfOne"
+  },
+  "metadata": {
+    "description": "790 modular AI agent skills with a conflict-free 5-stage pipeline for solo founders and one-person companies."
+  },
+  "plugins": [
+    {
+      "name": "teamofone",
+      "source": "./",
+      "description": "Full TeamOfOne suite: 1 Master Orchestrator + 789 solo-founder specialist skills across 14 departments."
+    },
+    {
+      "name": "teamofone-core",
+      "source": "./",
+      "description": "Core C-suite & orchestrator: teamofone-orchestrator, CEO, CTO, CMO, CFO, and Project Manager.",
+      "skills": [
+        "./00-orchestrator/teamofone-orchestrator",
+        "./01-executive-strategy/ceo",
+        "./02-engineering-architecture/cto",
+        "./04-product-design/cpo",
+        "./05-marketing-growth/cmo",
+        "./07-operations-management/project-manager",
+        "./08-finance-legal/cfo"
+      ]
+    }
+  ]
+}
