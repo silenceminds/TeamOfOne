@@ -1,0 +1,47 @@
+# TeamOfOne
+
+> Modular open-format library of 790 AI agent skills (1 Master Pipeline Orchestrator + 789 solo-founder specialist `SKILL.md` files) across 15 directories, designed to run a One-Person Company (OPC) through a conflict-free 5-stage connected pipeline.
+
+Repository: https://github.com/silenceminds/TeamOfOne
+
+## Core Architecture & Pipeline Files
+
+- [README.md](https://www.google.com/search?q=https://github.com/silenceminds/TeamOfOne/blob/main/README.md): Overview, department breakdown, and installation instructions for Claude Code, OpenAI Codex, GitHub Copilot, and Google Antigravity.
+- [PIPELINE.md](https://www.google.com/search?q=https://github.com/silenceminds/TeamOfOne/blob/main/PIPELINE.md): 5-stage connected pipeline protocol and conflict-free handoff rules shared across all 789 specialists.
+- [pipeline-schema.json](https://www.google.com/search?q=https://github.com/silenceminds/TeamOfOne/blob/main/pipeline-schema.json): JSON Schema for shared pipeline state (`locked_goal`, `constraints`, `stage_outputs`, `conflicts`, `schedule`).
+- [manifest.json](https://www.google.com/search?q=https://github.com/silenceminds/TeamOfOne/blob/main/manifest.json): Machine-readable index of all 790 skills (`name`, `title`, `department`, `path`).
+- [teamofone-orchestrator](https://www.google.com/search?q=https://github.com/silenceminds/TeamOfOne/blob/main/00-orchestrator/teamofone-orchestrator/SKILL.md): Master pipeline router and single tie-breaker for multi-agent OPC execution.
+
+## Pipeline Stages
+
+1. **Stage 1 — Strategy & Lock:** `01-executive-strategy/` and `04-product-design/` lock `goal` and `constraints` (read-only downstream).
+2. **Stage 2 — Intelligence & Signals:** `11-scheduled-web-research/` and `12-social-community-monitoring/` gather verified URLs, importance scores (1-5), and leads.
+3. **Stage 3 — Execution & Build:** `02-engineering-architecture/`, `03-ai-data-automation/`, `05-marketing-growth/`, `06-sales-revenue/`, `07-operations-management/`, `08-finance-legal/`, `09-customer-success-support/`, `10-people-contractors/`.
+4. **Stage 4 — Watchdog & QA Gate:** `14-essential-watchdogs/` audits security, APIs, billing, and compliance risks.
+5. **Stage 5 — PDF & Scheduled Connector Delivery:** `13-pdf-leads-delivery/` compiles leads into PDFs, checks for a connected folder (or asks where to save), and exports on schedule.
+
+## Departments (790 Skills Total)
+
+- `00-orchestrator/` (1 skill): Master pipeline orchestrator (`teamofone-orchestrator`).
+- `01-executive-strategy/` (43 skills): CEO, Chief of Staff, Board Advisor, Pricing Strategist, Competitive Intel, M&A Scout.
+- `02-engineering-architecture/` (90 skills): CTO, Full-Stack Builder, DevOps/SRE, Security, Database, API, Billing, Mobile, Web.
+- `03-ai-data-automation/` (64 skills): Head of AI, Prompt Engineer, LLM Evals, RAG, Agent Orchestration, n8n/Workflow Automation, Analytics.
+- `04-product-design/` (63 skills): CPO, Product Manager, MVP Architect, Onboarding, UI/UX, Design Systems, Pricing & Checkout UX.
+- `05-marketing-growth/` (74 skills): CMO, Growth Lead, SEO, Copywriting, Cold Email, Product Hunt, Hacker News, Paid Ads.
+- `06-sales-revenue/` (47 skills): VP Sales, Founder-Led Sales, Demo Coach, Objections, Proposals/SOW, Churn Save.
+- `07-operations-management/` (47 skills): COO, Project Manager, Ops Manager, Sprint Planner, SOP Writer, Deep Work Coach.
+- `08-finance-legal/` (47 skills): CFO, Bookkeeper, Cash Flow, Unit Economics, Tax Prep, ToS/Privacy, GDPR/SOC 2.
+- `09-customer-success-support/` (27 skills): Head of CS, Tech Support, Bug Triage, Help Center Docs, Onboarding Concierge.
+- `10-people-contractors/` (22 skills): Fractional Head of People, Contractor Briefs, Paid Trials, Async Collaboration, VA Delegation.
+- `11-scheduled-web-research/` (200 skills): Daily scheduled web research and source-cited reporting across AI, SaaS, dev, marketing, finance, legal, and vertical markets.
+- `12-social-community-monitoring/` (30 skills): Product importance, sentiment, and lead monitors for Facebook, Instagram, X, Hacker News, Reddit, Threads, GitHub, Dev.to, Lobste.rs, and Product Hunt.
+- `13-pdf-leads-delivery/` (20 skills): PDF lead/research compilers, connector folder routers, and scheduled export coordinators.
+- `14-essential-watchdogs/` (15 skills): Uptime/SSL/Domain, API deprecations, AI token bill spikes, tax deadlines, and reputation alerts.
+
+## Quick Install
+
+Clone the repository and copy any `<department>/<role>/` folder into your agent's skills directory:
+- Claude Code: `~/.claude/skills/` or `.claude/skills/`
+- OpenAI Codex: `.agents/skills/` or `~/.agents/skills/`
+- GitHub Copilot: `.github/skills/`
+- Google Antigravity: `.agent/skills/` or `~/.gemini/antigravity/skills/`

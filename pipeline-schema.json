@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TeamOfOne Shared Pipeline State",
+  "type": "object",
+  "required": [
+    "run_id",
+    "current_stage",
+    "locked_goal",
+    "constraints",
+    "stage_outputs",
+    "conflicts"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "object",
+      "properties": {
+        "frequency": {
+          "type": "string",
+          "example": "daily"
+        },
+        "time": {
+          "type": "string",
+          "example": "08:00"
+        },
+        "timezone": {
+          "type": "string",
+          "example": "Asia/Kolkata"
+        },
+        "connector_folder": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "current_stage": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "locked_goal": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stage_outputs": {
+      "type": "object",
+      "properties": {
+        "stage_1_strategy": {
+          "type": "object"
+        },
+        "stage_2_intelligence": {
+          "type": "object"
+        },
+        "stage_3_execution": {
+          "type": "object"
+        },
+        "stage_4_watchdog": {
+          "type": "object"
+        },
+        "stage_5_delivery": {
+          "type": "object"
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "raised_by": {
+            "type": "string"
+          },
+          "issue": {
+            "type": "string"
+          },
+          "resolution": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

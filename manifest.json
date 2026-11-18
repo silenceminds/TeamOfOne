@@ -1,0 +1,4767 @@
+{
+  "bundle_name": "teamofone",
+  "orchestrator": "00-orchestrator/teamofone-orchestrator/SKILL.md",
+  "pipeline_protocol": "PIPELINE.md",
+  "pipeline_schema": "pipeline-schema.json",
+  "total_specialist_skills": 789,
+  "total_skills_including_orchestrator": 790,
+  "departments": {
+    "00-orchestrator": 1,
+    "01-executive-strategy": 43,
+    "02-engineering-architecture": 90,
+    "03-ai-data-automation": 64,
+    "04-product-design": 63,
+    "05-marketing-growth": 74,
+    "06-sales-revenue": 47,
+    "07-operations-management": 47,
+    "08-finance-legal": 47,
+    "09-customer-success-support": 27,
+    "10-people-contractors": 22,
+    "11-scheduled-web-research": 200,
+    "12-social-community-monitoring": 30,
+    "13-pdf-leads-delivery": 20,
+    "14-essential-watchdogs": 15
+  },
+  "skills": [
+    {
+      "name": "teamofone-orchestrator",
+      "title": "TeamOfOne Master Orchestrator",
+      "department": "Pipeline Orchestrator",
+      "path": "00-orchestrator/teamofone-orchestrator/SKILL.md"
+    },
+    {
+      "name": "ceo",
+      "title": "Chief Executive Officer (CEO)",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/ceo/SKILL.md"
+    },
+    {
+      "name": "chief-of-staff",
+      "title": "Chief of Staff",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/chief-of-staff/SKILL.md"
+    },
+    {
+      "name": "board-advisor",
+      "title": "Board Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/board-advisor/SKILL.md"
+    },
+    {
+      "name": "strategy-lead",
+      "title": "Corporate Strategy Lead",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/strategy-lead/SKILL.md"
+    },
+    {
+      "name": "business-model-architect",
+      "title": "Business Model Architect",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/business-model-architect/SKILL.md"
+    },
+    {
+      "name": "pricing-strategist",
+      "title": "Pricing Strategist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/pricing-strategist/SKILL.md"
+    },
+    {
+      "name": "competitive-intel-analyst",
+      "title": "Competitive Intelligence Analyst",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/competitive-intel-analyst/SKILL.md"
+    },
+    {
+      "name": "market-research-lead",
+      "title": "Market Research Lead",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/market-research-lead/SKILL.md"
+    },
+    {
+      "name": "pivot-strategist",
+      "title": "Pivot Strategist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/pivot-strategist/SKILL.md"
+    },
+    {
+      "name": "partnerships-lead",
+      "title": "Strategic Partnerships Lead",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/partnerships-lead/SKILL.md"
+    },
+    {
+      "name": "ma-scout",
+      "title": "M&A and Acquisition Scout",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/ma-scout/SKILL.md"
+    },
+    {
+      "name": "okr-architect",
+      "title": "OKR & Goal Architect",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/okr-architect/SKILL.md"
+    },
+    {
+      "name": "investor-relations-lead",
+      "title": "Investor Relations Lead",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/investor-relations-lead/SKILL.md"
+    },
+    {
+      "name": "pitch-deck-coach",
+      "title": "Pitch Deck Coach",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/pitch-deck-coach/SKILL.md"
+    },
+    {
+      "name": "risk-officer",
+      "title": "Chief Risk Officer",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/risk-officer/SKILL.md"
+    },
+    {
+      "name": "expansion-strategist",
+      "title": "Market Expansion Strategist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/expansion-strategist/SKILL.md"
+    },
+    {
+      "name": "ecosystem-architect",
+      "title": "Ecosystem & Platform Architect",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/ecosystem-architect/SKILL.md"
+    },
+    {
+      "name": "founder-coach",
+      "title": "Executive Founder Coach",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/founder-coach/SKILL.md"
+    },
+    {
+      "name": "exit-strategist",
+      "title": "Exit & Valuation Strategist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/exit-strategist/SKILL.md"
+    },
+    {
+      "name": "capital-allocator",
+      "title": "Capital Allocation Lead",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/capital-allocator/SKILL.md"
+    },
+    {
+      "name": "category-designer",
+      "title": "Category Designer",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/category-designer/SKILL.md"
+    },
+    {
+      "name": "vision-futurist",
+      "title": "Industry Futurist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/vision-futurist/SKILL.md"
+    },
+    {
+      "name": "decision-auditor",
+      "title": "Decision Quality Auditor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/decision-auditor/SKILL.md"
+    },
+    {
+      "name": "crisis-commander",
+      "title": "Crisis Response Commander",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/crisis-commander/SKILL.md"
+    },
+    {
+      "name": "annual-planner",
+      "title": "Annual Strategy Planner",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/annual-planner/SKILL.md"
+    },
+    {
+      "name": "cto",
+      "title": "Chief Technology Officer (CTO)",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cto/SKILL.md"
+    },
+    {
+      "name": "vp-engineering",
+      "title": "VP of Engineering",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/vp-engineering/SKILL.md"
+    },
+    {
+      "name": "staff-backend-engineer",
+      "title": "Staff Backend Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/staff-backend-engineer/SKILL.md"
+    },
+    {
+      "name": "frontend-architect",
+      "title": "Frontend Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/frontend-architect/SKILL.md"
+    },
+    {
+      "name": "fullstack-builder",
+      "title": "Full-Stack Indie Builder",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/fullstack-builder/SKILL.md"
+    },
+    {
+      "name": "devops-sre-lead",
+      "title": "DevOps & SRE Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/devops-sre-lead/SKILL.md"
+    },
+    {
+      "name": "cloud-cost-optimizer",
+      "title": "Cloud Cost Optimizer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cloud-cost-optimizer/SKILL.md"
+    },
+    {
+      "name": "database-architect",
+      "title": "Database Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/database-architect/SKILL.md"
+    },
+    {
+      "name": "api-designer",
+      "title": "API Designer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/api-designer/SKILL.md"
+    },
+    {
+      "name": "security-engineer",
+      "title": "Application Security Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/security-engineer/SKILL.md"
+    },
+    {
+      "name": "auth-iam-specialist",
+      "title": "Auth & IAM Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/auth-iam-specialist/SKILL.md"
+    },
+    {
+      "name": "performance-engineer",
+      "title": "Performance Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/performance-engineer/SKILL.md"
+    },
+    {
+      "name": "qa-automation-lead",
+      "title": "QA & Test Automation Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/qa-automation-lead/SKILL.md"
+    },
+    {
+      "name": "ios-engineer",
+      "title": "iOS Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/ios-engineer/SKILL.md"
+    },
+    {
+      "name": "android-engineer",
+      "title": "Android Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/android-engineer/SKILL.md"
+    },
+    {
+      "name": "react-native-engineer",
+      "title": "React Native Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/react-native-engineer/SKILL.md"
+    },
+    {
+      "name": "nextjs-specialist",
+      "title": "Next.js Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/nextjs-specialist/SKILL.md"
+    },
+    {
+      "name": "python-backend-engineer",
+      "title": "Python Backend Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/python-backend-engineer/SKILL.md"
+    },
+    {
+      "name": "go-systems-engineer",
+      "title": "Go Systems Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/go-systems-engineer/SKILL.md"
+    },
+    {
+      "name": "rust-engineer",
+      "title": "Rust Systems Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/rust-engineer/SKILL.md"
+    },
+    {
+      "name": "typescript-lead",
+      "title": "TypeScript Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/typescript-lead/SKILL.md"
+    },
+    {
+      "name": "graphql-architect",
+      "title": "GraphQL Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/graphql-architect/SKILL.md"
+    },
+    {
+      "name": "saas-boilerplate-builder",
+      "title": "SaaS Boilerplate Builder",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/saas-boilerplate-builder/SKILL.md"
+    },
+    {
+      "name": "cicd-pipeline-engineer",
+      "title": "CI/CD Pipeline Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cicd-pipeline-engineer/SKILL.md"
+    },
+    {
+      "name": "docker-container-specialist",
+      "title": "Docker & Container Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/docker-container-specialist/SKILL.md"
+    },
+    {
+      "name": "serverless-architect",
+      "title": "Serverless Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/serverless-architect/SKILL.md"
+    },
+    {
+      "name": "edge-computing-engineer",
+      "title": "Edge Computing Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/edge-computing-engineer/SKILL.md"
+    },
+    {
+      "name": "webassembly-specialist",
+      "title": "WebAssembly Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/webassembly-specialist/SKILL.md"
+    },
+    {
+      "name": "browser-extension-dev",
+      "title": "Browser Extension Developer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/browser-extension-dev/SKILL.md"
+    },
+    {
+      "name": "cli-tool-builder",
+      "title": "CLI Tool Builder",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cli-tool-builder/SKILL.md"
+    },
+    {
+      "name": "sdk-maintainer",
+      "title": "SDK & Library Maintainer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/sdk-maintainer/SKILL.md"
+    },
+    {
+      "name": "webhook-integrator",
+      "title": "Webhook & Integration Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/webhook-integrator/SKILL.md"
+    },
+    {
+      "name": "stripe-billing-engineer",
+      "title": "Billing & Stripe Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/stripe-billing-engineer/SKILL.md"
+    },
+    {
+      "name": "search-engineer",
+      "title": "Search & Indexing Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/search-engineer/SKILL.md"
+    },
+    {
+      "name": "caching-specialist",
+      "title": "Caching Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/caching-specialist/SKILL.md"
+    },
+    {
+      "name": "queue-worker-engineer",
+      "title": "Background Jobs & Queue Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/queue-worker-engineer/SKILL.md"
+    },
+    {
+      "name": "realtime-websockets-dev",
+      "title": "Real-Time & WebSockets Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/realtime-websockets-dev/SKILL.md"
+    },
+    {
+      "name": "webrtc-engineer",
+      "title": "WebRTC & Media Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/webrtc-engineer/SKILL.md"
+    },
+    {
+      "name": "accessibility-engineer",
+      "title": "Accessibility (a11y) Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/accessibility-engineer/SKILL.md"
+    },
+    {
+      "name": "i18n-localization-engineer",
+      "title": "Localization (i18n) Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/i18n-localization-engineer/SKILL.md"
+    },
+    {
+      "name": "technical-seo-engineer",
+      "title": "Technical SEO Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/technical-seo-engineer/SKILL.md"
+    },
+    {
+      "name": "web-vitals-optimizer",
+      "title": "Core Web Vitals Optimizer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/web-vitals-optimizer/SKILL.md"
+    },
+    {
+      "name": "observability-lead",
+      "title": "Observability & Telemetry Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/observability-lead/SKILL.md"
+    },
+    {
+      "name": "penetration-tester",
+      "title": "Penetration Tester",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/penetration-tester/SKILL.md"
+    },
+    {
+      "name": "dependency-auditor",
+      "title": "Dependency & Supply Chain Auditor",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/dependency-auditor/SKILL.md"
+    },
+    {
+      "name": "tech-debt-eliminator",
+      "title": "Tech Debt Eliminator",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/tech-debt-eliminator/SKILL.md"
+    },
+    {
+      "name": "data-migration-specialist",
+      "title": "Data Migration Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/data-migration-specialist/SKILL.md"
+    },
+    {
+      "name": "email-deliverability-engineer",
+      "title": "Email Infrastructure Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/email-deliverability-engineer/SKILL.md"
+    },
+    {
+      "name": "pdf-document-engineer",
+      "title": "Document & PDF Generation Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/pdf-document-engineer/SKILL.md"
+    },
+    {
+      "name": "spreadsheet-engine-dev",
+      "title": "Spreadsheet & CSV Engine Dev",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/spreadsheet-engine-dev/SKILL.md"
+    },
+    {
+      "name": "cms-architect",
+      "title": "Headless CMS Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cms-architect/SKILL.md"
+    },
+    {
+      "name": "ecommerce-engineer",
+      "title": "E-Commerce Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/ecommerce-engineer/SKILL.md"
+    },
+    {
+      "name": "multi-tenancy-architect",
+      "title": "Multi-Tenancy Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/multi-tenancy-architect/SKILL.md"
+    },
+    {
+      "name": "feature-flag-engineer",
+      "title": "Feature Flag & Rollout Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/feature-flag-engineer/SKILL.md"
+    },
+    {
+      "name": "sandbox-isolation-engineer",
+      "title": "Sandbox & Execution Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/sandbox-isolation-engineer/SKILL.md"
+    },
+    {
+      "name": "git-workflow-specialist",
+      "title": "Git & Release Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/git-workflow-specialist/SKILL.md"
+    },
+    {
+      "name": "linux-sysadmin",
+      "title": "Linux Sysadmin",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/linux-sysadmin/SKILL.md"
+    },
+    {
+      "name": "backup-disaster-recovery",
+      "title": "Backup & Disaster Recovery Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/backup-disaster-recovery/SKILL.md"
+    },
+    {
+      "name": "load-testing-engineer",
+      "title": "Load & Stress Testing Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/load-testing-engineer/SKILL.md"
+    },
+    {
+      "name": "rate-limiting-specialist",
+      "title": "Rate Limiting & Abuse Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/rate-limiting-specialist/SKILL.md"
+    },
+    {
+      "name": "head-of-ai",
+      "title": "Head of AI",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/head-of-ai/SKILL.md"
+    },
+    {
+      "name": "prompt-engineer",
+      "title": "Prompt Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/prompt-engineer/SKILL.md"
+    },
+    {
+      "name": "llm-eval-lead",
+      "title": "LLM Evaluation Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/llm-eval-lead/SKILL.md"
+    },
+    {
+      "name": "rag-architect",
+      "title": "RAG Systems Architect",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/rag-architect/SKILL.md"
+    },
+    {
+      "name": "agent-orchestrator",
+      "title": "AI Agent Orchestrator",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/agent-orchestrator/SKILL.md"
+    },
+    {
+      "name": "workflow-automation-lead",
+      "title": "Workflow Automation Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/workflow-automation-lead/SKILL.md"
+    },
+    {
+      "name": "ai-cost-optimizer",
+      "title": "AI Cost & Latency Optimizer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ai-cost-optimizer/SKILL.md"
+    },
+    {
+      "name": "ai-safety-guardrails",
+      "title": "AI Safety & Guardrails Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ai-safety-guardrails/SKILL.md"
+    },
+    {
+      "name": "vector-db-architect",
+      "title": "Vector Database Architect",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/vector-db-architect/SKILL.md"
+    },
+    {
+      "name": "fine-tuning-specialist",
+      "title": "Model Fine-Tuning Specialist",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/fine-tuning-specialist/SKILL.md"
+    },
+    {
+      "name": "voice-ai-engineer",
+      "title": "Voice AI Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/voice-ai-engineer/SKILL.md"
+    },
+    {
+      "name": "vision-multimodal-dev",
+      "title": "Multimodal & Vision AI Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/vision-multimodal-dev/SKILL.md"
+    },
+    {
+      "name": "data-engineer",
+      "title": "Data Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/data-engineer/SKILL.md"
+    },
+    {
+      "name": "analytics-engineer",
+      "title": "Analytics Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/analytics-engineer/SKILL.md"
+    },
+    {
+      "name": "product-analyst",
+      "title": "Product Data Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/product-analyst/SKILL.md"
+    },
+    {
+      "name": "sql-query-optimizer",
+      "title": "SQL Query Optimizer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/sql-query-optimizer/SKILL.md"
+    },
+    {
+      "name": "bi-dashboard-builder",
+      "title": "BI & Dashboard Builder",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/bi-dashboard-builder/SKILL.md"
+    },
+    {
+      "name": "ab-testing-analyst",
+      "title": "Experimentation & A/B Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ab-testing-analyst/SKILL.md"
+    },
+    {
+      "name": "cohort-retention-analyst",
+      "title": "Cohort & Retention Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/cohort-retention-analyst/SKILL.md"
+    },
+    {
+      "name": "churn-prediction-analyst",
+      "title": "Churn Prediction Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/churn-prediction-analyst/SKILL.md"
+    },
+    {
+      "name": "attribution-modeler",
+      "title": "Marketing Attribution Modeler",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/attribution-modeler/SKILL.md"
+    },
+    {
+      "name": "etl-pipeline-builder",
+      "title": "ETL & Sync Builder",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/etl-pipeline-builder/SKILL.md"
+    },
+    {
+      "name": "web-scraping-specialist",
+      "title": "Web Scraping & Enrichment Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/web-scraping-specialist/SKILL.md"
+    },
+    {
+      "name": "synthetic-data-generator",
+      "title": "Synthetic Data Generator",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/synthetic-data-generator/SKILL.md"
+    },
+    {
+      "name": "knowledge-graph-builder",
+      "title": "Knowledge Graph Builder",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/knowledge-graph-builder/SKILL.md"
+    },
+    {
+      "name": "mcp-integration-dev",
+      "title": "MCP & Tool Integration Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/mcp-integration-dev/SKILL.md"
+    },
+    {
+      "name": "browser-automation-dev",
+      "title": "Browser Automation Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/browser-automation-dev/SKILL.md"
+    },
+    {
+      "name": "email-triage-automator",
+      "title": "Inbox & Support Triage Automator",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/email-triage-automator/SKILL.md"
+    },
+    {
+      "name": "anomaly-detection-analyst",
+      "title": "Anomaly Detection Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/anomaly-detection-analyst/SKILL.md"
+    },
+    {
+      "name": "forecasting-modeler",
+      "title": "Time-Series Forecasting Modeler",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/forecasting-modeler/SKILL.md"
+    },
+    {
+      "name": "recommendation-engine-dev",
+      "title": "Recommendation Engine Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/recommendation-engine-dev/SKILL.md"
+    },
+    {
+      "name": "nlp-classification-dev",
+      "title": "NLP & Classification Specialist",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/nlp-classification-dev/SKILL.md"
+    },
+    {
+      "name": "document-parser-engineer",
+      "title": "Document Parsing Engineer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/document-parser-engineer/SKILL.md"
+    },
+    {
+      "name": "personalization-architect",
+      "title": "Personalization Architect",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/personalization-architect/SKILL.md"
+    },
+    {
+      "name": "data-privacy-engineer",
+      "title": "Data Privacy & Anonymization Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/data-privacy-engineer/SKILL.md"
+    },
+    {
+      "name": "cpo",
+      "title": "Chief Product Officer (CPO)",
+      "department": "Product & Design",
+      "path": "04-product-design/cpo/SKILL.md"
+    },
+    {
+      "name": "product-manager",
+      "title": "Product Manager",
+      "department": "Product & Design",
+      "path": "04-product-design/product-manager/SKILL.md"
+    },
+    {
+      "name": "technical-pm",
+      "title": "Technical Product Manager",
+      "department": "Product & Design",
+      "path": "04-product-design/technical-pm/SKILL.md"
+    },
+    {
+      "name": "growth-pm",
+      "title": "Growth Product Manager",
+      "department": "Product & Design",
+      "path": "04-product-design/growth-pm/SKILL.md"
+    },
+    {
+      "name": "discovery-researcher",
+      "title": "Product Discovery Researcher",
+      "department": "Product & Design",
+      "path": "04-product-design/discovery-researcher/SKILL.md"
+    },
+    {
+      "name": "user-interviewer",
+      "title": "User Interview Coach",
+      "department": "Product & Design",
+      "path": "04-product-design/user-interviewer/SKILL.md"
+    },
+    {
+      "name": "jtbd-strategist",
+      "title": "Jobs-to-be-Done Strategist",
+      "department": "Product & Design",
+      "path": "04-product-design/jtbd-strategist/SKILL.md"
+    },
+    {
+      "name": "prd-writer",
+      "title": "PRD & Spec Writer",
+      "department": "Product & Design",
+      "path": "04-product-design/prd-writer/SKILL.md"
+    },
+    {
+      "name": "roadmap-prioritizer",
+      "title": "Roadmap Prioritizer",
+      "department": "Product & Design",
+      "path": "04-product-design/roadmap-prioritizer/SKILL.md"
+    },
+    {
+      "name": "mvp-architect",
+      "title": "MVP Scope Architect",
+      "department": "Product & Design",
+      "path": "04-product-design/mvp-architect/SKILL.md"
+    },
+    {
+      "name": "onboarding-specialist",
+      "title": "User Onboarding Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/onboarding-specialist/SKILL.md"
+    },
+    {
+      "name": "activation-optimizer",
+      "title": "Activation Optimizer",
+      "department": "Product & Design",
+      "path": "04-product-design/activation-optimizer/SKILL.md"
+    },
+    {
+      "name": "retention-designer",
+      "title": "Habit & Retention Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/retention-designer/SKILL.md"
+    },
+    {
+      "name": "gamification-designer",
+      "title": "Gamification Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/gamification-designer/SKILL.md"
+    },
+    {
+      "name": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/ui-ux-designer/SKILL.md"
+    },
+    {
+      "name": "design-system-architect",
+      "title": "Design System Architect",
+      "department": "Product & Design",
+      "path": "04-product-design/design-system-architect/SKILL.md"
+    },
+    {
+      "name": "wireframe-specialist",
+      "title": "Wireframe & Flow Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/wireframe-specialist/SKILL.md"
+    },
+    {
+      "name": "landing-page-designer",
+      "title": "Landing Page Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/landing-page-designer/SKILL.md"
+    },
+    {
+      "name": "mobile-ux-designer",
+      "title": "Mobile UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/mobile-ux-designer/SKILL.md"
+    },
+    {
+      "name": "ux-writer",
+      "title": "UX Writer & Microcopy Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/ux-writer/SKILL.md"
+    },
+    {
+      "name": "brand-identity-designer",
+      "title": "Brand Identity Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/brand-identity-designer/SKILL.md"
+    },
+    {
+      "name": "typography-specialist",
+      "title": "Typography & Readability Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/typography-specialist/SKILL.md"
+    },
+    {
+      "name": "dark-mode-specialist",
+      "title": "Dark Mode & Theme Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/dark-mode-specialist/SKILL.md"
+    },
+    {
+      "name": "prototyping-specialist",
+      "title": "Interactive Prototyping Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/prototyping-specialist/SKILL.md"
+    },
+    {
+      "name": "usability-tester",
+      "title": "Usability Testing Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/usability-tester/SKILL.md"
+    },
+    {
+      "name": "information-architect",
+      "title": "Information Architect",
+      "department": "Product & Design",
+      "path": "04-product-design/information-architect/SKILL.md"
+    },
+    {
+      "name": "checkout-ux-designer",
+      "title": "Checkout & Paywall Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/checkout-ux-designer/SKILL.md"
+    },
+    {
+      "name": "pricing-page-designer",
+      "title": "Pricing Page Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/pricing-page-designer/SKILL.md"
+    },
+    {
+      "name": "empty-state-designer",
+      "title": "Empty State & First-Run Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/empty-state-designer/SKILL.md"
+    },
+    {
+      "name": "notification-ux-designer",
+      "title": "Notification & Digest Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/notification-ux-designer/SKILL.md"
+    },
+    {
+      "name": "dashboard-ux-designer",
+      "title": "Data & Dashboard UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/dashboard-ux-designer/SKILL.md"
+    },
+    {
+      "name": "forms-ux-specialist",
+      "title": "Forms & Input UX Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/forms-ux-specialist/SKILL.md"
+    },
+    {
+      "name": "ai-ux-designer",
+      "title": "AI Interface & Copilot Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/ai-ux-designer/SKILL.md"
+    },
+    {
+      "name": "changelog-curator",
+      "title": "Product Changelog Curator",
+      "department": "Product & Design",
+      "path": "04-product-design/changelog-curator/SKILL.md"
+    },
+    {
+      "name": "beta-feedback-synthesizer",
+      "title": "Beta Feedback Synthesizer",
+      "department": "Product & Design",
+      "path": "04-product-design/beta-feedback-synthesizer/SKILL.md"
+    },
+    {
+      "name": "cmo",
+      "title": "Chief Marketing Officer (CMO)",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/cmo/SKILL.md"
+    },
+    {
+      "name": "growth-lead",
+      "title": "Growth Marketing Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/growth-lead/SKILL.md"
+    },
+    {
+      "name": "content-strategist",
+      "title": "Content Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/content-strategist/SKILL.md"
+    },
+    {
+      "name": "seo-content-writer",
+      "title": "SEO Content Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/seo-content-writer/SKILL.md"
+    },
+    {
+      "name": "technical-blogger",
+      "title": "Technical & Engineering Blogger",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/technical-blogger/SKILL.md"
+    },
+    {
+      "name": "newsletter-editor",
+      "title": "Newsletter Editor",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/newsletter-editor/SKILL.md"
+    },
+    {
+      "name": "conversion-copywriter",
+      "title": "Conversion Copywriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/conversion-copywriter/SKILL.md"
+    },
+    {
+      "name": "direct-response-writer",
+      "title": "Direct Response Copywriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/direct-response-writer/SKILL.md"
+    },
+    {
+      "name": "landing-page-copywriter",
+      "title": "Landing Page Copywriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/landing-page-copywriter/SKILL.md"
+    },
+    {
+      "name": "email-sequence-writer",
+      "title": "Lifecycle Email Copywriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/email-sequence-writer/SKILL.md"
+    },
+    {
+      "name": "cold-email-strategist",
+      "title": "Cold Email Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/cold-email-strategist/SKILL.md"
+    },
+    {
+      "name": "linkedin-ghostwriter",
+      "title": "LinkedIn Growth Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/linkedin-ghostwriter/SKILL.md"
+    },
+    {
+      "name": "x-twitter-writer",
+      "title": "X / Twitter Thread Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/x-twitter-writer/SKILL.md"
+    },
+    {
+      "name": "youtube-scriptwriter",
+      "title": "YouTube Scriptwriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/youtube-scriptwriter/SKILL.md"
+    },
+    {
+      "name": "short-form-video-producer",
+      "title": "Short-Form Video Producer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/short-form-video-producer/SKILL.md"
+    },
+    {
+      "name": "podcast-producer",
+      "title": "Podcast & Audio Producer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/podcast-producer/SKILL.md"
+    },
+    {
+      "name": "community-manager",
+      "title": "Community Manager",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/community-manager/SKILL.md"
+    },
+    {
+      "name": "reddit-marketing-lead",
+      "title": "Reddit Marketing Specialist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/reddit-marketing-lead/SKILL.md"
+    },
+    {
+      "name": "product-hunt-manager",
+      "title": "Product Hunt Launch Manager",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/product-hunt-manager/SKILL.md"
+    },
+    {
+      "name": "hacker-news-strategist",
+      "title": "Hacker News Launch Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/hacker-news-strategist/SKILL.md"
+    },
+    {
+      "name": "aso-optimizer",
+      "title": "App Store (ASO) Optimizer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/aso-optimizer/SKILL.md"
+    },
+    {
+      "name": "google-ads-manager",
+      "title": "Google Ads Manager",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/google-ads-manager/SKILL.md"
+    },
+    {
+      "name": "meta-ads-specialist",
+      "title": "Meta Ads Specialist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/meta-ads-specialist/SKILL.md"
+    },
+    {
+      "name": "linkedin-ads-specialist",
+      "title": "LinkedIn Ads Specialist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/linkedin-ads-specialist/SKILL.md"
+    },
+    {
+      "name": "tiktok-ads-specialist",
+      "title": "TikTok Ads Specialist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/tiktok-ads-specialist/SKILL.md"
+    },
+    {
+      "name": "sponsorship-scout",
+      "title": "Newsletter & Podcast Sponsor Scout",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/sponsorship-scout/SKILL.md"
+    },
+    {
+      "name": "affiliate-program-manager",
+      "title": "Affiliate Program Manager",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/affiliate-program-manager/SKILL.md"
+    },
+    {
+      "name": "referral-loop-designer",
+      "title": "Referral Loop Designer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/referral-loop-designer/SKILL.md"
+    },
+    {
+      "name": "waitlist-strategist",
+      "title": "Pre-Launch Waitlist Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/waitlist-strategist/SKILL.md"
+    },
+    {
+      "name": "pr-outreach-lead",
+      "title": "PR & Media Outreach Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/pr-outreach-lead/SKILL.md"
+    },
+    {
+      "name": "influencer-partnerships-lead",
+      "title": "Creator & Influencer Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/influencer-partnerships-lead/SKILL.md"
+    },
+    {
+      "name": "case-study-writer",
+      "title": "Customer Case Study Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/case-study-writer/SKILL.md"
+    },
+    {
+      "name": "whitepaper-author",
+      "title": "Whitepaper & Ebook Author",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/whitepaper-author/SKILL.md"
+    },
+    {
+      "name": "webinar-planner",
+      "title": "Webinar & Workshop Planner",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/webinar-planner/SKILL.md"
+    },
+    {
+      "name": "lead-magnet-creator",
+      "title": "Lead Magnet Creator",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/lead-magnet-creator/SKILL.md"
+    },
+    {
+      "name": "quiz-funnel-architect",
+      "title": "Quiz & Assessment Architect",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/quiz-funnel-architect/SKILL.md"
+    },
+    {
+      "name": "brand-storyteller",
+      "title": "Brand Storyteller",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/brand-storyteller/SKILL.md"
+    },
+    {
+      "name": "positioning-lead",
+      "title": "Positioning & Messaging Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/positioning-lead/SKILL.md"
+    },
+    {
+      "name": "comparison-page-writer",
+      "title": "Competitor Comparison Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/comparison-page-writer/SKILL.md"
+    },
+    {
+      "name": "programmatic-seo-lead",
+      "title": "Programmatic SEO Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/programmatic-seo-lead/SKILL.md"
+    },
+    {
+      "name": "social-proof-curator",
+      "title": "Social Proof & Testimonial Curator",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/social-proof-curator/SKILL.md"
+    },
+    {
+      "name": "repurposing-engine",
+      "title": "Content Repurposing Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/repurposing-engine/SKILL.md"
+    },
+    {
+      "name": "free-tool-marketer",
+      "title": "Engineering-as-Marketing Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/free-tool-marketer/SKILL.md"
+    },
+    {
+      "name": "event-marketing-lead",
+      "title": "Micro-Event & Meetup Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/event-marketing-lead/SKILL.md"
+    },
+    {
+      "name": "rebrand-strategist",
+      "title": "Rebrand & Relaunch Strategist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/rebrand-strategist/SKILL.md"
+    },
+    {
+      "name": "vp-sales",
+      "title": "VP of Sales",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/vp-sales/SKILL.md"
+    },
+    {
+      "name": "founder-led-sales-coach",
+      "title": "Founder-Led Sales Coach",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/founder-led-sales-coach/SKILL.md"
+    },
+    {
+      "name": "sdr-outreach-specialist",
+      "title": "Outbound SDR Specialist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/sdr-outreach-specialist/SKILL.md"
+    },
+    {
+      "name": "account-executive",
+      "title": "Account Executive",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/account-executive/SKILL.md"
+    },
+    {
+      "name": "demo-script-coach",
+      "title": "Product Demo Coach",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/demo-script-coach/SKILL.md"
+    },
+    {
+      "name": "discovery-call-strategist",
+      "title": "Discovery Call Strategist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/discovery-call-strategist/SKILL.md"
+    },
+    {
+      "name": "proposal-sow-writer",
+      "title": "Proposal & SOW Writer",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/proposal-sow-writer/SKILL.md"
+    },
+    {
+      "name": "security-questionnaire-lead",
+      "title": "Security Questionnaire Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/security-questionnaire-lead/SKILL.md"
+    },
+    {
+      "name": "objection-handler",
+      "title": "Sales Objection Handler",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/objection-handler/SKILL.md"
+    },
+    {
+      "name": "followup-cadence-manager",
+      "title": "Follow-Up Cadence Manager",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/followup-cadence-manager/SKILL.md"
+    },
+    {
+      "name": "crm-hygiene-manager",
+      "title": "CRM & Pipeline Manager",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/crm-hygiene-manager/SKILL.md"
+    },
+    {
+      "name": "pipeline-forecaster",
+      "title": "Revenue & Pipeline Forecaster",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/pipeline-forecaster/SKILL.md"
+    },
+    {
+      "name": "upsell-strategist",
+      "title": "Expansion & Upsell Strategist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/upsell-strategist/SKILL.md"
+    },
+    {
+      "name": "renewal-manager",
+      "title": "Renewals Manager",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/renewal-manager/SKILL.md"
+    },
+    {
+      "name": "churn-save-specialist",
+      "title": "Churn Save & Win-Back Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/churn-save-specialist/SKILL.md"
+    },
+    {
+      "name": "annual-plan-converter",
+      "title": "Annual Plan Conversion Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/annual-plan-converter/SKILL.md"
+    },
+    {
+      "name": "channel-sales-lead",
+      "title": "Agency & Channel Sales Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/channel-sales-lead/SKILL.md"
+    },
+    {
+      "name": "marketplace-listing-lead",
+      "title": "Marketplace Listing Optimizer",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/marketplace-listing-lead/SKILL.md"
+    },
+    {
+      "name": "rfp-responder",
+      "title": "RFP & Tender Specialist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/rfp-responder/SKILL.md"
+    },
+    {
+      "name": "contract-negotiation-coach",
+      "title": "Contract Negotiation Coach",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/contract-negotiation-coach/SKILL.md"
+    },
+    {
+      "name": "icp-qualifier",
+      "title": "ICP & Lead Scoring Analyst",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/icp-qualifier/SKILL.md"
+    },
+    {
+      "name": "enterprise-pilot-designer",
+      "title": "Enterprise Pilot Designer",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/enterprise-pilot-designer/SKILL.md"
+    },
+    {
+      "name": "self-serve-to-sales-bridge",
+      "title": "Product-Led Sales (PLS) Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/self-serve-to-sales-bridge/SKILL.md"
+    },
+    {
+      "name": "pricing-discount-guard",
+      "title": "Discount & Deal Desk Guard",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/pricing-discount-guard/SKILL.md"
+    },
+    {
+      "name": "sales-playbook-writer",
+      "title": "Sales Playbook Author",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/sales-playbook-writer/SKILL.md"
+    },
+    {
+      "name": "coo",
+      "title": "Chief Operating Officer (COO)",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/coo/SKILL.md"
+    },
+    {
+      "name": "project-manager",
+      "title": "Project Manager",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/project-manager/SKILL.md"
+    },
+    {
+      "name": "ops-manager",
+      "title": "Operations Manager",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/ops-manager/SKILL.md"
+    },
+    {
+      "name": "sprint-planner",
+      "title": "Weekly Sprint Planner",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/sprint-planner/SKILL.md"
+    },
+    {
+      "name": "daily-standup-facilitator",
+      "title": "Daily Focus Facilitator",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/daily-standup-facilitator/SKILL.md"
+    },
+    {
+      "name": "weekly-review-coach",
+      "title": "Weekly Review Coach",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/weekly-review-coach/SKILL.md"
+    },
+    {
+      "name": "sop-writer",
+      "title": "SOP & Playbook Writer",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/sop-writer/SKILL.md"
+    },
+    {
+      "name": "process-automator",
+      "title": "Business Process Automator",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/process-automator/SKILL.md"
+    },
+    {
+      "name": "knowledge-base-curator",
+      "title": "Internal Knowledge Curator",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/knowledge-base-curator/SKILL.md"
+    },
+    {
+      "name": "notion-workspace-architect",
+      "title": "Workspace & Notion Architect",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/notion-workspace-architect/SKILL.md"
+    },
+    {
+      "name": "meeting-summarizer",
+      "title": "Meeting & Action Item Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/meeting-summarizer/SKILL.md"
+    },
+    {
+      "name": "decision-log-keeper",
+      "title": "Decision Log Keeper",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/decision-log-keeper/SKILL.md"
+    },
+    {
+      "name": "vendor-evaluator",
+      "title": "Vendor & SaaS Evaluator",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/vendor-evaluator/SKILL.md"
+    },
+    {
+      "name": "saas-spend-auditor",
+      "title": "SaaS Spend Auditor",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/saas-spend-auditor/SKILL.md"
+    },
+    {
+      "name": "time-blocking-coach",
+      "title": "Time-Blocking & Calendar Coach",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/time-blocking-coach/SKILL.md"
+    },
+    {
+      "name": "deep-work-protector",
+      "title": "Deep Work Protector",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/deep-work-protector/SKILL.md"
+    },
+    {
+      "name": "burnout-prevention-coach",
+      "title": "Sustainable Pace Coach",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/burnout-prevention-coach/SKILL.md"
+    },
+    {
+      "name": "travel-logistics-planner",
+      "title": "Business Travel & Event Planner",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/travel-logistics-planner/SKILL.md"
+    },
+    {
+      "name": "qa-release-coordinator",
+      "title": "Release & Launch Coordinator",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/qa-release-coordinator/SKILL.md"
+    },
+    {
+      "name": "inbox-zero-manager",
+      "title": "Executive Inbox Manager",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/inbox-zero-manager/SKILL.md"
+    },
+    {
+      "name": "okr-check-in-lead",
+      "title": "Goal & Metric Check-In Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/okr-check-in-lead/SKILL.md"
+    },
+    {
+      "name": "supply-chain-ops",
+      "title": "Physical & Fulfillment Ops Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/supply-chain-ops/SKILL.md"
+    },
+    {
+      "name": "contingency-planner",
+      "title": "Business Continuity Planner",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/contingency-planner/SKILL.md"
+    },
+    {
+      "name": "asset-library-organizer",
+      "title": "Digital Asset Organizer",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/asset-library-organizer/SKILL.md"
+    },
+    {
+      "name": "delegation-architect",
+      "title": "Delegation & Outsourcing Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/delegation-architect/SKILL.md"
+    },
+    {
+      "name": "cfo",
+      "title": "Chief Financial Officer (CFO)",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/cfo/SKILL.md"
+    },
+    {
+      "name": "bookkeeper",
+      "title": "Bookkeeper",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/bookkeeper/SKILL.md"
+    },
+    {
+      "name": "cash-flow-forecaster",
+      "title": "Cash Flow Forecaster",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/cash-flow-forecaster/SKILL.md"
+    },
+    {
+      "name": "runway-burn-analyst",
+      "title": "Runway & Burn Rate Analyst",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/runway-burn-analyst/SKILL.md"
+    },
+    {
+      "name": "unit-economics-modeler",
+      "title": "Unit Economics Modeler",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/unit-economics-modeler/SKILL.md"
+    },
+    {
+      "name": "saas-metrics-analyst",
+      "title": "SaaS Metrics Analyst",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/saas-metrics-analyst/SKILL.md"
+    },
+    {
+      "name": "tax-prep-organizer",
+      "title": "Tax Prep Organizer",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/tax-prep-organizer/SKILL.md"
+    },
+    {
+      "name": "gst-vat-compliance",
+      "title": "Indirect Tax (GST/VAT) Helper",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/gst-vat-compliance/SKILL.md"
+    },
+    {
+      "name": "expense-auditor",
+      "title": "Expense & Margin Auditor",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/expense-auditor/SKILL.md"
+    },
+    {
+      "name": "invoice-collections-lead",
+      "title": "Invoicing & Collections Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/invoice-collections-lead/SKILL.md"
+    },
+    {
+      "name": "fundraising-modeler",
+      "title": "Fundraising & Cap Table Modeler",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/fundraising-modeler/SKILL.md"
+    },
+    {
+      "name": "grant-funding-scout",
+      "title": "Grants & Non-Dilutive Scout",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/grant-funding-scout/SKILL.md"
+    },
+    {
+      "name": "startup-general-counsel",
+      "title": "Startup General Counsel",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/startup-general-counsel/SKILL.md"
+    },
+    {
+      "name": "tos-privacy-drafter",
+      "title": "Terms & Privacy Policy Drafter",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/tos-privacy-drafter/SKILL.md"
+    },
+    {
+      "name": "gdpr-ccpa-compliance",
+      "title": "GDPR & Privacy Compliance Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/gdpr-ccpa-compliance/SKILL.md"
+    },
+    {
+      "name": "soc2-readiness-lead",
+      "title": "SOC 2 & Compliance Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/soc2-readiness-lead/SKILL.md"
+    },
+    {
+      "name": "ip-trademark-researcher",
+      "title": "IP & Trademark Researcher",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/ip-trademark-researcher/SKILL.md"
+    },
+    {
+      "name": "contract-redliner",
+      "title": "Contract & MSA Reviewer",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/contract-redliner/SKILL.md"
+    },
+    {
+      "name": "oss-license-auditor",
+      "title": "Open-Source License Auditor",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/oss-license-auditor/SKILL.md"
+    },
+    {
+      "name": "insurance-advisor",
+      "title": "Business Insurance Advisor",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/insurance-advisor/SKILL.md"
+    },
+    {
+      "name": "dunning-recovery-analyst",
+      "title": "Failed Payment & Dunning Analyst",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/dunning-recovery-analyst/SKILL.md"
+    },
+    {
+      "name": "international-entity-guide",
+      "title": "Cross-Border Ops & Entity Guide",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/international-entity-guide/SKILL.md"
+    },
+    {
+      "name": "pricing-margin-calculator",
+      "title": "Pricing & Margin Calculator",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/pricing-margin-calculator/SKILL.md"
+    },
+    {
+      "name": "fraud-chargeback-lead",
+      "title": "Fraud & Chargeback Defender",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/fraud-chargeback-lead/SKILL.md"
+    },
+    {
+      "name": "financial-reporting-lead",
+      "title": "Monthly P&L Reporting Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/financial-reporting-lead/SKILL.md"
+    },
+    {
+      "name": "head-of-customer-success",
+      "title": "Head of Customer Success",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/head-of-customer-success/SKILL.md"
+    },
+    {
+      "name": "tier1-support-agent",
+      "title": "Tier-1 Support Specialist",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/tier1-support-agent/SKILL.md"
+    },
+    {
+      "name": "tech-support-engineer",
+      "title": "Technical Support Engineer",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/tech-support-engineer/SKILL.md"
+    },
+    {
+      "name": "bug-triage-specialist",
+      "title": "Bug Triage Specialist",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/bug-triage-specialist/SKILL.md"
+    },
+    {
+      "name": "help-center-writer",
+      "title": "Help Center & Docs Writer",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/help-center-writer/SKILL.md"
+    },
+    {
+      "name": "faq-troubleshooter",
+      "title": "FAQ & Troubleshooting Author",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/faq-troubleshooter/SKILL.md"
+    },
+    {
+      "name": "tutorial-scripter",
+      "title": "Video Tutorial Scripter",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/tutorial-scripter/SKILL.md"
+    },
+    {
+      "name": "onboarding-concierge",
+      "title": "White-Glove Onboarding Concierge",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/onboarding-concierge/SKILL.md"
+    },
+    {
+      "name": "vip-account-manager",
+      "title": "VIP Account Manager",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/vip-account-manager/SKILL.md"
+    },
+    {
+      "name": "nps-feedback-analyst",
+      "title": "NPS & Sentiment Analyst",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/nps-feedback-analyst/SKILL.md"
+    },
+    {
+      "name": "feature-request-synthesizer",
+      "title": "Feature Request Synthesizer",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/feature-request-synthesizer/SKILL.md"
+    },
+    {
+      "name": "incident-comms-lead",
+      "title": "Incident Communications Lead",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/incident-comms-lead/SKILL.md"
+    },
+    {
+      "name": "refund-dispute-handler",
+      "title": "Refund & Policy Handler",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/refund-dispute-handler/SKILL.md"
+    },
+    {
+      "name": "cancellation-analyst",
+      "title": "Exit Survey & Cancellation Lead",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/cancellation-analyst/SKILL.md"
+    },
+    {
+      "name": "power-user-evangelist",
+      "title": "Power User & Champion Lead",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/power-user-evangelist/SKILL.md"
+    },
+    {
+      "name": "beta-program-manager",
+      "title": "Beta Program Manager",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/beta-program-manager/SKILL.md"
+    },
+    {
+      "name": "migration-helper",
+      "title": "Customer Data Migration Helper",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/migration-helper/SKILL.md"
+    },
+    {
+      "name": "sla-monitor",
+      "title": "Response Time & SLA Monitor",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/sla-monitor/SKILL.md"
+    },
+    {
+      "name": "canned-response-curator",
+      "title": "Support Macro & Template Curator",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/canned-response-curator/SKILL.md"
+    },
+    {
+      "name": "accessibility-support-lead",
+      "title": "Customer Accessibility Support",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/accessibility-support-lead/SKILL.md"
+    },
+    {
+      "name": "head-of-people",
+      "title": "Fractional Head of People",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/head-of-people/SKILL.md"
+    },
+    {
+      "name": "jd-writer",
+      "title": "Role & Scope Description Writer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/jd-writer/SKILL.md"
+    },
+    {
+      "name": "contractor-sourcer",
+      "title": "Freelancer & Agency Sourcer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/contractor-sourcer/SKILL.md"
+    },
+    {
+      "name": "technical-interviewer",
+      "title": "Technical Screening Lead",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/technical-interviewer/SKILL.md"
+    },
+    {
+      "name": "paid-trial-designer",
+      "title": "Paid Trial Project Designer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/paid-trial-designer/SKILL.md"
+    },
+    {
+      "name": "contractor-onboarder",
+      "title": "Contractor Onboarding Lead",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/contractor-onboarder/SKILL.md"
+    },
+    {
+      "name": "async-culture-architect",
+      "title": "Async Collaboration Architect",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/async-culture-architect/SKILL.md"
+    },
+    {
+      "name": "va-task-delegator",
+      "title": "Virtual Assistant Task Designer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/va-task-delegator/SKILL.md"
+    },
+    {
+      "name": "fractional-exec-scout",
+      "title": "Fractional Executive Scout",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/fractional-exec-scout/SKILL.md"
+    },
+    {
+      "name": "advisor-equity-guide",
+      "title": "Advisor & Equity Guide",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/advisor-equity-guide/SKILL.md"
+    },
+    {
+      "name": "offboarding-checklist-lead",
+      "title": "Contractor Offboarding Lead",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/offboarding-checklist-lead/SKILL.md"
+    },
+    {
+      "name": "feedback-coach",
+      "title": "Contractor Feedback Coach",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/feedback-coach/SKILL.md"
+    },
+    {
+      "name": "compensation-benchmarker",
+      "title": "Rate & Compensation Benchmarker",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/compensation-benchmarker/SKILL.md"
+    },
+    {
+      "name": "team-expansion-planner",
+      "title": "First-Hire Readiness Planner",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/team-expansion-planner/SKILL.md"
+    },
+    {
+      "name": "employer-brand-writer",
+      "title": "Employer Brand & Careers Writer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/employer-brand-writer/SKILL.md"
+    },
+    {
+      "name": "playwright-e2e-engineer",
+      "title": "Playwright E2E Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/playwright-e2e-engineer/SKILL.md"
+    },
+    {
+      "name": "tailwind-css-specialist",
+      "title": "Tailwind CSS Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/tailwind-css-specialist/SKILL.md"
+    },
+    {
+      "name": "postgres-tuning-specialist",
+      "title": "PostgreSQL Tuning Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/postgres-tuning-specialist/SKILL.md"
+    },
+    {
+      "name": "sqlite-local-first-dev",
+      "title": "SQLite & Local-First Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/sqlite-local-first-dev/SKILL.md"
+    },
+    {
+      "name": "oauth-app-reviewer",
+      "title": "OAuth & App Review Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/oauth-app-reviewer/SKILL.md"
+    },
+    {
+      "name": "chrome-web-store-publisher",
+      "title": "Chrome Web Store Publisher",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/chrome-web-store-publisher/SKILL.md"
+    },
+    {
+      "name": "electron-desktop-dev",
+      "title": "Desktop App (Electron/Tauri) Dev",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/electron-desktop-dev/SKILL.md"
+    },
+    {
+      "name": "realtime-collab-crdt-dev",
+      "title": "CRDT & Multiplayer Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/realtime-collab-crdt-dev/SKILL.md"
+    },
+    {
+      "name": "video-transcoding-engineer",
+      "title": "Video & FFmpeg Pipeline Dev",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/video-transcoding-engineer/SKILL.md"
+    },
+    {
+      "name": "maps-geospatial-engineer",
+      "title": "Maps & Geospatial Engineer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/maps-geospatial-engineer/SKILL.md"
+    },
+    {
+      "name": "eval-dataset-curator",
+      "title": "Eval Dataset Curator",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/eval-dataset-curator/SKILL.md"
+    },
+    {
+      "name": "structured-output-engineer",
+      "title": "Structured Output & JSON Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/structured-output-engineer/SKILL.md"
+    },
+    {
+      "name": "agent-memory-architect",
+      "title": "Agent Memory Architect",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/agent-memory-architect/SKILL.md"
+    },
+    {
+      "name": "ai-search-relevance-lead",
+      "title": "AI Search & Reranking Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ai-search-relevance-lead/SKILL.md"
+    },
+    {
+      "name": "local-llm-deployment-dev",
+      "title": "Local & Open-Weights LLM Dev",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/local-llm-deployment-dev/SKILL.md"
+    },
+    {
+      "name": "spreadsheet-ai-analyst",
+      "title": "Spreadsheet & CSV AI Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/spreadsheet-ai-analyst/SKILL.md"
+    },
+    {
+      "name": "pricing-elasticity-analyst",
+      "title": "Pricing Elasticity Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/pricing-elasticity-analyst/SKILL.md"
+    },
+    {
+      "name": "revenue-cohort-modeler",
+      "title": "Revenue Cohort Modeler",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/revenue-cohort-modeler/SKILL.md"
+    },
+    {
+      "name": "marketing-mix-analyst",
+      "title": "Marketing Mix Analyst",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/marketing-mix-analyst/SKILL.md"
+    },
+    {
+      "name": "web-analytics-privacy-lead",
+      "title": "Privacy-First Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/web-analytics-privacy-lead/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-onboarding-lead",
+      "title": "B2B Team Onboarding Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/b2b-saas-onboarding-lead/SKILL.md"
+    },
+    {
+      "name": "developer-docs-ux-lead",
+      "title": "Developer Docs & API UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/developer-docs-ux-lead/SKILL.md"
+    },
+    {
+      "name": "mobile-paywall-designer",
+      "title": "Mobile Paywall & Trial Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/mobile-paywall-designer/SKILL.md"
+    },
+    {
+      "name": "settings-billing-ux-designer",
+      "title": "Settings & Billing UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/settings-billing-ux-designer/SKILL.md"
+    },
+    {
+      "name": "keyboard-shortcut-designer",
+      "title": "Power-User & Shortcut Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/keyboard-shortcut-designer/SKILL.md"
+    },
+    {
+      "name": "template-gallery-curator",
+      "title": "In-App Template Curator",
+      "department": "Product & Design",
+      "path": "04-product-design/template-gallery-curator/SKILL.md"
+    },
+    {
+      "name": "error-recovery-ux-designer",
+      "title": "Error & Recovery UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/error-recovery-ux-designer/SKILL.md"
+    },
+    {
+      "name": "email-template-designer",
+      "title": "Transactional Email Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/email-template-designer/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-ux-designer",
+      "title": "Extension Popup & Sidebar UX",
+      "department": "Product & Design",
+      "path": "04-product-design/chrome-extension-ux-designer/SKILL.md"
+    },
+    {
+      "name": "trust-signals-ux-designer",
+      "title": "Trust & Security UX Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/trust-signals-ux-designer/SKILL.md"
+    },
+    {
+      "name": "indie-launch-director",
+      "title": "Indie Product Launch Director",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/indie-launch-director/SKILL.md"
+    },
+    {
+      "name": "micro-saas-directory-submitter",
+      "title": "Directory & Listing Marketer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/micro-saas-directory-submitter/SKILL.md"
+    },
+    {
+      "name": "youtube-thumbnail-strategist",
+      "title": "YouTube Title & Thumbnail Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/youtube-thumbnail-strategist/SKILL.md"
+    },
+    {
+      "name": "customer-interview-marketer",
+      "title": "Voice-of-Customer Copywriter",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/customer-interview-marketer/SKILL.md"
+    },
+    {
+      "name": "b2b-founder-brand-coach",
+      "title": "Founder Personal Brand Coach",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/b2b-founder-brand-coach/SKILL.md"
+    },
+    {
+      "name": "glossary-seo-writer",
+      "title": "Glossary & Definition SEO Writer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/glossary-seo-writer/SKILL.md"
+    },
+    {
+      "name": "integration-page-marketer",
+      "title": "Integration Page Marketer",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/integration-page-marketer/SKILL.md"
+    },
+    {
+      "name": "annual-wrapped-campaign-lead",
+      "title": "Year-in-Review Campaign Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/annual-wrapped-campaign-lead/SKILL.md"
+    },
+    {
+      "name": "holiday-promo-strategist",
+      "title": "Seasonal & BFCM Promo Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/holiday-promo-strategist/SKILL.md"
+    },
+    {
+      "name": "podcast-guest-pitcher",
+      "title": "Podcast Guest Outreach Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/podcast-guest-pitcher/SKILL.md"
+    },
+    {
+      "name": "founder-demo-followup-writer",
+      "title": "Post-Demo Follow-Up Writer",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/founder-demo-followup-writer/SKILL.md"
+    },
+    {
+      "name": "linkedin-dm-outreach-coach",
+      "title": "LinkedIn Social Selling Coach",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/linkedin-dm-outreach-coach/SKILL.md"
+    },
+    {
+      "name": "agency-partner-enablement",
+      "title": "Agency Partner Enablement Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/agency-partner-enablement/SKILL.md"
+    },
+    {
+      "name": "usage-based-pricing-advisor",
+      "title": "Usage-Based Pricing Advisor",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/usage-based-pricing-advisor/SKILL.md"
+    },
+    {
+      "name": "freemium-conversion-lead",
+      "title": "Freemium-to-Paid Strategist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/freemium-conversion-lead/SKILL.md"
+    },
+    {
+      "name": "solo-founder-daily-planner",
+      "title": "Solo Founder Daily Planner",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/solo-founder-daily-planner/SKILL.md"
+    },
+    {
+      "name": "launch-war-room-lead",
+      "title": "Launch Day War-Room Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/launch-war-room-lead/SKILL.md"
+    },
+    {
+      "name": "quarterly-retrospective-lead",
+      "title": "Quarterly Retrospective Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/quarterly-retrospective-lead/SKILL.md"
+    },
+    {
+      "name": "password-access-hygiene-lead",
+      "title": "Access & Credential Hygiene Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/password-access-hygiene-lead/SKILL.md"
+    },
+    {
+      "name": "domain-dns-portfolio-manager",
+      "title": "Domain & DNS Portfolio Manager",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/domain-dns-portfolio-manager/SKILL.md"
+    },
+    {
+      "name": "merchant-of-record-advisor",
+      "title": "Merchant of Record Advisor",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/merchant-of-record-advisor/SKILL.md"
+    },
+    {
+      "name": "saas-valuation-estimator",
+      "title": "Micro-SaaS Valuation Estimator",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/saas-valuation-estimator/SKILL.md"
+    },
+    {
+      "name": "contractor-tax-form-lead",
+      "title": "Contractor Compliance (W-9/W-8BEN)",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/contractor-tax-form-lead/SKILL.md"
+    },
+    {
+      "name": "ai-copyright-ip-advisor",
+      "title": "AI & Content IP Advisor",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/ai-copyright-ip-advisor/SKILL.md"
+    },
+    {
+      "name": "refund-policy-architect",
+      "title": "Refund & Guarantee Architect",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/refund-policy-architect/SKILL.md"
+    },
+    {
+      "name": "api-developer-support-lead",
+      "title": "Developer & API Support Lead",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/api-developer-support-lead/SKILL.md"
+    },
+    {
+      "name": "changelog-announcement-writer",
+      "title": "Feature Release Comms Writer",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/changelog-announcement-writer/SKILL.md"
+    },
+    {
+      "name": "review-generation-manager",
+      "title": "G2 & Trustpilot Review Manager",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/review-generation-manager/SKILL.md"
+    },
+    {
+      "name": "community-ambassador-lead",
+      "title": "Community Ambassador Lead",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/community-ambassador-lead/SKILL.md"
+    },
+    {
+      "name": "churn-exit-interviewer",
+      "title": "Churn Exit Interviewer",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/churn-exit-interviewer/SKILL.md"
+    },
+    {
+      "name": "design-contractor-brief-writer",
+      "title": "Design Contractor Brief Writer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/design-contractor-brief-writer/SKILL.md"
+    },
+    {
+      "name": "dev-contractor-brief-writer",
+      "title": "Dev Contractor Brief Writer",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/dev-contractor-brief-writer/SKILL.md"
+    },
+    {
+      "name": "content-writer-brief-creator",
+      "title": "Content Writer Brief Creator",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/content-writer-brief-creator/SKILL.md"
+    },
+    {
+      "name": "video-editor-brief-creator",
+      "title": "Video Editor Brief Creator",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/video-editor-brief-creator/SKILL.md"
+    },
+    {
+      "name": "fractional-cmo-evaluator",
+      "title": "Fractional CMO Evaluator",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/fractional-cmo-evaluator/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-strategy",
+      "title": "B2B SaaS Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/b2b-saas-strategy/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-growth",
+      "title": "B2B SaaS Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/b2b-saas-growth/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-pricing",
+      "title": "B2B SaaS Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/b2b-saas-pricing/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-product",
+      "title": "B2B SaaS Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/b2b-saas-product/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-tech-stack",
+      "title": "B2B SaaS Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/b2b-saas-tech-stack/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-sales",
+      "title": "B2B SaaS Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/b2b-saas-sales/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-metrics",
+      "title": "B2B SaaS KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/b2b-saas-metrics/SKILL.md"
+    },
+    {
+      "name": "b2b-saas-ops",
+      "title": "B2B SaaS Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/b2b-saas-ops/SKILL.md"
+    },
+    {
+      "name": "micro-saas-strategy",
+      "title": "Micro-SaaS Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/micro-saas-strategy/SKILL.md"
+    },
+    {
+      "name": "micro-saas-growth",
+      "title": "Micro-SaaS Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/micro-saas-growth/SKILL.md"
+    },
+    {
+      "name": "micro-saas-pricing",
+      "title": "Micro-SaaS Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/micro-saas-pricing/SKILL.md"
+    },
+    {
+      "name": "micro-saas-product",
+      "title": "Micro-SaaS Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/micro-saas-product/SKILL.md"
+    },
+    {
+      "name": "micro-saas-tech-stack",
+      "title": "Micro-SaaS Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/micro-saas-tech-stack/SKILL.md"
+    },
+    {
+      "name": "micro-saas-sales",
+      "title": "Micro-SaaS Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/micro-saas-sales/SKILL.md"
+    },
+    {
+      "name": "micro-saas-metrics",
+      "title": "Micro-SaaS KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/micro-saas-metrics/SKILL.md"
+    },
+    {
+      "name": "micro-saas-ops",
+      "title": "Micro-SaaS Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/micro-saas-ops/SKILL.md"
+    },
+    {
+      "name": "developer-tools-strategy",
+      "title": "Developer Tools Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/developer-tools-strategy/SKILL.md"
+    },
+    {
+      "name": "developer-tools-growth",
+      "title": "Developer Tools Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/developer-tools-growth/SKILL.md"
+    },
+    {
+      "name": "developer-tools-pricing",
+      "title": "Developer Tools Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/developer-tools-pricing/SKILL.md"
+    },
+    {
+      "name": "developer-tools-product",
+      "title": "Developer Tools Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/developer-tools-product/SKILL.md"
+    },
+    {
+      "name": "developer-tools-tech-stack",
+      "title": "Developer Tools Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/developer-tools-tech-stack/SKILL.md"
+    },
+    {
+      "name": "developer-tools-sales",
+      "title": "Developer Tools Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/developer-tools-sales/SKILL.md"
+    },
+    {
+      "name": "developer-tools-metrics",
+      "title": "Developer Tools KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/developer-tools-metrics/SKILL.md"
+    },
+    {
+      "name": "developer-tools-ops",
+      "title": "Developer Tools Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/developer-tools-ops/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-strategy",
+      "title": "AI Application Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/ai-wrapper-app-strategy/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-growth",
+      "title": "AI Application Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/ai-wrapper-app-growth/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-pricing",
+      "title": "AI Application Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/ai-wrapper-app-pricing/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-product",
+      "title": "AI Application Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/ai-wrapper-app-product/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-tech-stack",
+      "title": "AI Application Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/ai-wrapper-app-tech-stack/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-sales",
+      "title": "AI Application Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/ai-wrapper-app-sales/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-metrics",
+      "title": "AI Application KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ai-wrapper-app-metrics/SKILL.md"
+    },
+    {
+      "name": "ai-wrapper-app-ops",
+      "title": "AI Application Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/ai-wrapper-app-ops/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-strategy",
+      "title": "E-Commerce & DTC Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/ecommerce-dtc-strategy/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-growth",
+      "title": "E-Commerce & DTC Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/ecommerce-dtc-growth/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-pricing",
+      "title": "E-Commerce & DTC Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/ecommerce-dtc-pricing/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-product",
+      "title": "E-Commerce & DTC Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/ecommerce-dtc-product/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-tech-stack",
+      "title": "E-Commerce & DTC Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/ecommerce-dtc-tech-stack/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-sales",
+      "title": "E-Commerce & DTC Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/ecommerce-dtc-sales/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-metrics",
+      "title": "E-Commerce & DTC KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/ecommerce-dtc-metrics/SKILL.md"
+    },
+    {
+      "name": "ecommerce-dtc-ops",
+      "title": "E-Commerce & DTC Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/ecommerce-dtc-ops/SKILL.md"
+    },
+    {
+      "name": "creator-economy-strategy",
+      "title": "Creator Economy Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/creator-economy-strategy/SKILL.md"
+    },
+    {
+      "name": "creator-economy-growth",
+      "title": "Creator Economy Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/creator-economy-growth/SKILL.md"
+    },
+    {
+      "name": "creator-economy-pricing",
+      "title": "Creator Economy Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/creator-economy-pricing/SKILL.md"
+    },
+    {
+      "name": "creator-economy-product",
+      "title": "Creator Economy Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/creator-economy-product/SKILL.md"
+    },
+    {
+      "name": "creator-economy-tech-stack",
+      "title": "Creator Economy Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/creator-economy-tech-stack/SKILL.md"
+    },
+    {
+      "name": "creator-economy-sales",
+      "title": "Creator Economy Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/creator-economy-sales/SKILL.md"
+    },
+    {
+      "name": "creator-economy-metrics",
+      "title": "Creator Economy KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/creator-economy-metrics/SKILL.md"
+    },
+    {
+      "name": "creator-economy-ops",
+      "title": "Creator Economy Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/creator-economy-ops/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-strategy",
+      "title": "EdTech & Courses Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/edtech-courses-strategy/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-growth",
+      "title": "EdTech & Courses Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/edtech-courses-growth/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-pricing",
+      "title": "EdTech & Courses Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/edtech-courses-pricing/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-product",
+      "title": "EdTech & Courses Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/edtech-courses-product/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-tech-stack",
+      "title": "EdTech & Courses Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/edtech-courses-tech-stack/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-sales",
+      "title": "EdTech & Courses Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/edtech-courses-sales/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-metrics",
+      "title": "EdTech & Courses KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/edtech-courses-metrics/SKILL.md"
+    },
+    {
+      "name": "edtech-courses-ops",
+      "title": "EdTech & Courses Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/edtech-courses-ops/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-strategy",
+      "title": "FinTech Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/fintech-indie-strategy/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-growth",
+      "title": "FinTech Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/fintech-indie-growth/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-pricing",
+      "title": "FinTech Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/fintech-indie-pricing/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-product",
+      "title": "FinTech Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/fintech-indie-product/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-tech-stack",
+      "title": "FinTech Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/fintech-indie-tech-stack/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-sales",
+      "title": "FinTech Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/fintech-indie-sales/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-metrics",
+      "title": "FinTech KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/fintech-indie-metrics/SKILL.md"
+    },
+    {
+      "name": "fintech-indie-ops",
+      "title": "FinTech Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/fintech-indie-ops/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-strategy",
+      "title": "Health & Wellness Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/healthtech-wellness-strategy/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-growth",
+      "title": "Health & Wellness Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/healthtech-wellness-growth/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-pricing",
+      "title": "Health & Wellness Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/healthtech-wellness-pricing/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-product",
+      "title": "Health & Wellness Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/healthtech-wellness-product/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-tech-stack",
+      "title": "Health & Wellness Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/healthtech-wellness-tech-stack/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-sales",
+      "title": "Health & Wellness Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/healthtech-wellness-sales/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-metrics",
+      "title": "Health & Wellness KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/healthtech-wellness-metrics/SKILL.md"
+    },
+    {
+      "name": "healthtech-wellness-ops",
+      "title": "Health & Wellness Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/healthtech-wellness-ops/SKILL.md"
+    },
+    {
+      "name": "agency-productized-strategy",
+      "title": "Productized Service Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/agency-productized-strategy/SKILL.md"
+    },
+    {
+      "name": "agency-productized-growth",
+      "title": "Productized Service Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/agency-productized-growth/SKILL.md"
+    },
+    {
+      "name": "agency-productized-pricing",
+      "title": "Productized Service Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/agency-productized-pricing/SKILL.md"
+    },
+    {
+      "name": "agency-productized-product",
+      "title": "Productized Service Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/agency-productized-product/SKILL.md"
+    },
+    {
+      "name": "agency-productized-tech-stack",
+      "title": "Productized Service Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/agency-productized-tech-stack/SKILL.md"
+    },
+    {
+      "name": "agency-productized-sales",
+      "title": "Productized Service Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/agency-productized-sales/SKILL.md"
+    },
+    {
+      "name": "agency-productized-metrics",
+      "title": "Productized Service KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/agency-productized-metrics/SKILL.md"
+    },
+    {
+      "name": "agency-productized-ops",
+      "title": "Productized Service Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/agency-productized-ops/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-strategy",
+      "title": "Consumer Mobile App Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/mobile-consumer-strategy/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-growth",
+      "title": "Consumer Mobile App Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/mobile-consumer-growth/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-pricing",
+      "title": "Consumer Mobile App Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/mobile-consumer-pricing/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-product",
+      "title": "Consumer Mobile App Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/mobile-consumer-product/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-tech-stack",
+      "title": "Consumer Mobile App Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/mobile-consumer-tech-stack/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-sales",
+      "title": "Consumer Mobile App Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/mobile-consumer-sales/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-metrics",
+      "title": "Consumer Mobile App KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/mobile-consumer-metrics/SKILL.md"
+    },
+    {
+      "name": "mobile-consumer-ops",
+      "title": "Consumer Mobile App Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/mobile-consumer-ops/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-strategy",
+      "title": "Two-Sided Marketplace Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/marketplace-two-sided-strategy/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-growth",
+      "title": "Two-Sided Marketplace Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/marketplace-two-sided-growth/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-pricing",
+      "title": "Two-Sided Marketplace Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/marketplace-two-sided-pricing/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-product",
+      "title": "Two-Sided Marketplace Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/marketplace-two-sided-product/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-tech-stack",
+      "title": "Two-Sided Marketplace Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/marketplace-two-sided-tech-stack/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-sales",
+      "title": "Two-Sided Marketplace Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/marketplace-two-sided-sales/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-metrics",
+      "title": "Two-Sided Marketplace KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/marketplace-two-sided-metrics/SKILL.md"
+    },
+    {
+      "name": "marketplace-two-sided-ops",
+      "title": "Two-Sided Marketplace Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/marketplace-two-sided-ops/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-strategy",
+      "title": "Paid Newsletter & Media Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/newsletter-media-strategy/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-growth",
+      "title": "Paid Newsletter & Media Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/newsletter-media-growth/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-pricing",
+      "title": "Paid Newsletter & Media Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/newsletter-media-pricing/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-product",
+      "title": "Paid Newsletter & Media Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/newsletter-media-product/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-tech-stack",
+      "title": "Paid Newsletter & Media Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/newsletter-media-tech-stack/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-sales",
+      "title": "Paid Newsletter & Media Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/newsletter-media-sales/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-metrics",
+      "title": "Paid Newsletter & Media KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/newsletter-media-metrics/SKILL.md"
+    },
+    {
+      "name": "newsletter-media-ops",
+      "title": "Paid Newsletter & Media Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/newsletter-media-ops/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-strategy",
+      "title": "Browser Extension Business Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/chrome-extension-biz-strategy/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-growth",
+      "title": "Browser Extension Business Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/chrome-extension-biz-growth/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-pricing",
+      "title": "Browser Extension Business Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/chrome-extension-biz-pricing/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-product",
+      "title": "Browser Extension Business Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/chrome-extension-biz-product/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-tech-stack",
+      "title": "Browser Extension Business Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/chrome-extension-biz-tech-stack/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-sales",
+      "title": "Browser Extension Business Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/chrome-extension-biz-sales/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-metrics",
+      "title": "Browser Extension Business KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/chrome-extension-biz-metrics/SKILL.md"
+    },
+    {
+      "name": "chrome-extension-biz-ops",
+      "title": "Browser Extension Business Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/chrome-extension-biz-ops/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-strategy",
+      "title": "Shopify App Ecosystem Strategy Advisor",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/shopify-app-ecosystem-strategy/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-growth",
+      "title": "Shopify App Ecosystem Growth & Acquisition Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/shopify-app-ecosystem-growth/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-pricing",
+      "title": "Shopify App Ecosystem Pricing & Monetization Lead",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/shopify-app-ecosystem-pricing/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-product",
+      "title": "Shopify App Ecosystem Product & UX Lead",
+      "department": "Product & Design",
+      "path": "04-product-design/shopify-app-ecosystem-product/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-tech-stack",
+      "title": "Shopify App Ecosystem Technical Architect",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/shopify-app-ecosystem-tech-stack/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-sales",
+      "title": "Shopify App Ecosystem Sales & Outreach Lead",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/shopify-app-ecosystem-sales/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-metrics",
+      "title": "Shopify App Ecosystem KPI & Analytics Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/shopify-app-ecosystem-metrics/SKILL.md"
+    },
+    {
+      "name": "shopify-app-ecosystem-ops",
+      "title": "Shopify App Ecosystem Operations & Compliance Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/shopify-app-ecosystem-ops/SKILL.md"
+    },
+    {
+      "name": "solo-founder-board-chair",
+      "title": "Solo Founder Board Chair",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/solo-founder-board-chair/SKILL.md"
+    },
+    {
+      "name": "moat-builder",
+      "title": "Competitive Moat Builder",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/moat-builder/SKILL.md"
+    },
+    {
+      "name": "bootstrapping-purist",
+      "title": "Bootstrapping Purist",
+      "department": "Executive & Strategy",
+      "path": "01-executive-strategy/bootstrapping-purist/SKILL.md"
+    },
+    {
+      "name": "stripe-webhook-debugger",
+      "title": "Stripe Webhook Debugger",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/stripe-webhook-debugger/SKILL.md"
+    },
+    {
+      "name": "cors-csp-security-fixer",
+      "title": "CORS & CSP Security Fixer",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cors-csp-security-fixer/SKILL.md"
+    },
+    {
+      "name": "cron-scheduler-reliability",
+      "title": "Cron & Scheduler Reliability Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/cron-scheduler-reliability/SKILL.md"
+    },
+    {
+      "name": "oauth-token-refresh-dev",
+      "title": "OAuth Token Refresh Specialist",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/oauth-token-refresh-dev/SKILL.md"
+    },
+    {
+      "name": "zero-downtime-deployer",
+      "title": "Zero-Downtime Deployment Lead",
+      "department": "Engineering & Architecture",
+      "path": "02-engineering-architecture/zero-downtime-deployer/SKILL.md"
+    },
+    {
+      "name": "prompt-injection-defender",
+      "title": "Prompt Injection Defender",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/prompt-injection-defender/SKILL.md"
+    },
+    {
+      "name": "token-budget-enforcer",
+      "title": "Token Budget Enforcer",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/token-budget-enforcer/SKILL.md"
+    },
+    {
+      "name": "citation-grounding-specialist",
+      "title": "AI Citation Grounding Lead",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/citation-grounding-specialist/SKILL.md"
+    },
+    {
+      "name": "webhook-to-slack-notifier",
+      "title": "Alert & Webhook Notifier",
+      "department": "AI, Data & Automation",
+      "path": "03-ai-data-automation/webhook-to-slack-notifier/SKILL.md"
+    },
+    {
+      "name": "paywall-timing-specialist",
+      "title": "Paywall Timing Specialist",
+      "department": "Product & Design",
+      "path": "04-product-design/paywall-timing-specialist/SKILL.md"
+    },
+    {
+      "name": "onboarding-checklist-designer",
+      "title": "Onboarding Checklist Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/onboarding-checklist-designer/SKILL.md"
+    },
+    {
+      "name": "keyboard-command-bar-designer",
+      "title": "Command Bar (Cmd+K) Designer",
+      "department": "Product & Design",
+      "path": "04-product-design/keyboard-command-bar-designer/SKILL.md"
+    },
+    {
+      "name": "build-in-public-editor",
+      "title": "Build-in-Public Editor",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/build-in-public-editor/SKILL.md"
+    },
+    {
+      "name": "customer-win-amplifier",
+      "title": "Customer Win Amplifier",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/customer-win-amplifier/SKILL.md"
+    },
+    {
+      "name": "churned-user-reengagement",
+      "title": "Win-Back Campaign Specialist",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/churned-user-reengagement/SKILL.md"
+    },
+    {
+      "name": "seo-internal-linking-lead",
+      "title": "SEO Internal Linking Lead",
+      "department": "Marketing & Growth",
+      "path": "05-marketing-growth/seo-internal-linking-lead/SKILL.md"
+    },
+    {
+      "name": "trial-extension-strategist",
+      "title": "Trial Extension Strategist",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/trial-extension-strategist/SKILL.md"
+    },
+    {
+      "name": "case-study-roi-quantifier",
+      "title": "ROI Case Study Quantifier",
+      "department": "Sales & Revenue",
+      "path": "06-sales-revenue/case-study-roi-quantifier/SKILL.md"
+    },
+    {
+      "name": "weekend-shutdown-checklist",
+      "title": "Weekend Shutdown Lead",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/weekend-shutdown-checklist/SKILL.md"
+    },
+    {
+      "name": "monday-kickoff-planner",
+      "title": "Monday Kickoff Planner",
+      "department": "Operations & Project Management",
+      "path": "07-operations-management/monday-kickoff-planner/SKILL.md"
+    },
+    {
+      "name": "saas-tax-nexus-tracker",
+      "title": "Sales Tax Nexus Tracker",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/saas-tax-nexus-tracker/SKILL.md"
+    },
+    {
+      "name": "chargeback-evidence-writer",
+      "title": "Chargeback Evidence Writer",
+      "department": "Finance, Accounting & Legal",
+      "path": "08-finance-legal/chargeback-evidence-writer/SKILL.md"
+    },
+    {
+      "name": "bug-apology-communicator",
+      "title": "Bug Apology Communicator",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/bug-apology-communicator/SKILL.md"
+    },
+    {
+      "name": "feature-deprecation-communicator",
+      "title": "Feature Sunset Communicator",
+      "department": "Customer Success & Support",
+      "path": "09-customer-success-support/feature-deprecation-communicator/SKILL.md"
+    },
+    {
+      "name": "freelancer-scope-guard",
+      "title": "Freelancer Scope Guard",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/freelancer-scope-guard/SKILL.md"
+    },
+    {
+      "name": "async-loom-brief-coach",
+      "title": "Async Loom Brief Coach",
+      "department": "People, Contractors & Hiring",
+      "path": "10-people-contractors/async-loom-brief-coach/SKILL.md"
+    },
+    {
+      "name": "daily-research-llm-releases",
+      "title": "Daily LLM Releases & Model Updates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-llm-releases/SKILL.md"
+    },
+    {
+      "name": "daily-research-open-weights",
+      "title": "Daily Open-Weights & Local Models Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-open-weights/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-pricing",
+      "title": "Daily AI API Pricing & Token Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-pricing/SKILL.md"
+    },
+    {
+      "name": "daily-research-multimodal-ai",
+      "title": "Daily Multimodal & Vision AI Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-multimodal-ai/SKILL.md"
+    },
+    {
+      "name": "daily-research-voice-audio-ai",
+      "title": "Daily Voice & Audio AI Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-voice-audio-ai/SKILL.md"
+    },
+    {
+      "name": "daily-research-video-gen-ai",
+      "title": "Daily Video Generation AI Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-video-gen-ai/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-agents",
+      "title": "Daily Autonomous Agent Frameworks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-agents/SKILL.md"
+    },
+    {
+      "name": "daily-research-rag-retrieval",
+      "title": "Daily RAG & Vector Search Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-rag-retrieval/SKILL.md"
+    },
+    {
+      "name": "daily-research-llm-evals",
+      "title": "Daily LLM Evaluation & Safety Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-llm-evals/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-hardware",
+      "title": "Daily AI Chips & Inference Hardware Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-hardware/SKILL.md"
+    },
+    {
+      "name": "daily-research-frontend-web",
+      "title": "Daily Frontend & Web Frameworks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-frontend-web/SKILL.md"
+    },
+    {
+      "name": "daily-research-backend-apis",
+      "title": "Daily Backend & API Tooling Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-backend-apis/SKILL.md"
+    },
+    {
+      "name": "daily-research-databases",
+      "title": "Daily Databases & Storage Engines Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-databases/SKILL.md"
+    },
+    {
+      "name": "daily-research-cloud-infra",
+      "title": "Daily Cloud & Serverless Infra Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-cloud-infra/SKILL.md"
+    },
+    {
+      "name": "daily-research-devops-cicd",
+      "title": "Daily DevOps & CI/CD Tooling Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-devops-cicd/SKILL.md"
+    },
+    {
+      "name": "daily-research-cybersecurity",
+      "title": "Daily Cybersecurity & CVEs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-cybersecurity/SKILL.md"
+    },
+    {
+      "name": "daily-research-mobile-dev",
+      "title": "Daily iOS & Android Ecosystems Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-mobile-dev/SKILL.md"
+    },
+    {
+      "name": "daily-research-browser-tech",
+      "title": "Daily Browser & Extension APIs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-browser-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-oss-trending",
+      "title": "Daily Trending Open-Source Repos Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-oss-trending/SKILL.md"
+    },
+    {
+      "name": "daily-research-dev-productivity",
+      "title": "Daily Developer Productivity Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-dev-productivity/SKILL.md"
+    },
+    {
+      "name": "daily-research-micro-saas",
+      "title": "Daily Micro-SaaS Trends & Exits Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-micro-saas/SKILL.md"
+    },
+    {
+      "name": "daily-research-b2b-saas",
+      "title": "Daily B2B SaaS Benchmarks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-b2b-saas/SKILL.md"
+    },
+    {
+      "name": "daily-research-pricing-models",
+      "title": "Daily SaaS Pricing & Packaging Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-pricing-models/SKILL.md"
+    },
+    {
+      "name": "daily-research-plg-onboarding",
+      "title": "Daily Product-Led Growth Tactics Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-plg-onboarding/SKILL.md"
+    },
+    {
+      "name": "daily-research-churn-retention",
+      "title": "Daily Retention & Churn Benchmarks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-churn-retention/SKILL.md"
+    },
+    {
+      "name": "daily-research-bootstrapping",
+      "title": "Daily Bootstrapped Founder Playbooks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-bootstrapping/SKILL.md"
+    },
+    {
+      "name": "daily-research-acquisition-deals",
+      "title": "Daily Micro-Acquisition Marketplaces Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-acquisition-deals/SKILL.md"
+    },
+    {
+      "name": "daily-research-api-economy",
+      "title": "Daily API-First Business Models Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-api-economy/SKILL.md"
+    },
+    {
+      "name": "daily-research-vertical-saas",
+      "title": "Daily Vertical SaaS Opportunities Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-vertical-saas/SKILL.md"
+    },
+    {
+      "name": "daily-research-solopreneur-ops",
+      "title": "Daily One-Person Company Case Studies Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-solopreneur-ops/SKILL.md"
+    },
+    {
+      "name": "daily-research-seo-updates",
+      "title": "Daily Search Engine Algorithm Updates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-seo-updates/SKILL.md"
+    },
+    {
+      "name": "daily-research-programmatic-seo",
+      "title": "Daily Programmatic SEO Case Studies Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-programmatic-seo/SKILL.md"
+    },
+    {
+      "name": "daily-research-content-marketing",
+      "title": "Daily B2B Content & Newsletter Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-content-marketing/SKILL.md"
+    },
+    {
+      "name": "daily-research-social-algorithms",
+      "title": "Daily Social Platform Algorithm Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-social-algorithms/SKILL.md"
+    },
+    {
+      "name": "daily-research-paid-ads-roas",
+      "title": "Daily Paid Search & Social Ad Benchmarks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-paid-ads-roas/SKILL.md"
+    },
+    {
+      "name": "daily-research-email-deliverability",
+      "title": "Daily Email Deliverability & Cold Outreach Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-email-deliverability/SKILL.md"
+    },
+    {
+      "name": "daily-research-influencer-creator",
+      "title": "Daily Creator & Sponsorship Market Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-influencer-creator/SKILL.md"
+    },
+    {
+      "name": "daily-research-launch-platforms",
+      "title": "Daily Product Launch Platform Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-launch-platforms/SKILL.md"
+    },
+    {
+      "name": "daily-research-conversion-cro",
+      "title": "Daily Landing Page & CRO Experiments Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-conversion-cro/SKILL.md"
+    },
+    {
+      "name": "daily-research-community-led",
+      "title": "Daily Community-Led Growth Tactics Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-community-led/SKILL.md"
+    },
+    {
+      "name": "daily-research-vc-seed-deals",
+      "title": "Daily Seed & Pre-Seed Funding Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-vc-seed-deals/SKILL.md"
+    },
+    {
+      "name": "daily-research-grants-credits",
+      "title": "Daily Startup Grants & Cloud Credits Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-grants-credits/SKILL.md"
+    },
+    {
+      "name": "daily-research-payment-processors",
+      "title": "Daily Payment Gateways & MoR Updates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-payment-processors/SKILL.md"
+    },
+    {
+      "name": "daily-research-global-tax-vat",
+      "title": "Daily Global SaaS Tax, GST & VAT Rules Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-global-tax-vat/SKILL.md"
+    },
+    {
+      "name": "daily-research-saas-valuations",
+      "title": "Daily SaaS Valuation Multiples Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-saas-valuations/SKILL.md"
+    },
+    {
+      "name": "daily-research-fintech-apis",
+      "title": "Daily FinTech & Banking APIs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-fintech-apis/SKILL.md"
+    },
+    {
+      "name": "daily-research-crypto-web3-rails",
+      "title": "Daily Stablecoin & Cross-Border Rails Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-crypto-web3-rails/SKILL.md"
+    },
+    {
+      "name": "daily-research-treasury-yields",
+      "title": "Daily Startup Treasury & Cash Yield Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-treasury-yields/SKILL.md"
+    },
+    {
+      "name": "daily-research-fraud-chargebacks",
+      "title": "Daily Payment Fraud & Chargeback Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-fraud-chargebacks/SKILL.md"
+    },
+    {
+      "name": "daily-research-accounting-automation",
+      "title": "Daily Bookkeeping & Tax Automation Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-accounting-automation/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-regulation",
+      "title": "Daily Global AI Laws & Compliance Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-regulation/SKILL.md"
+    },
+    {
+      "name": "daily-research-gdpr-privacy",
+      "title": "Daily GDPR, CCPA & Data Privacy Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-gdpr-privacy/SKILL.md"
+    },
+    {
+      "name": "daily-research-soc2-security",
+      "title": "Daily SOC 2 & ISO Compliance Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-soc2-security/SKILL.md"
+    },
+    {
+      "name": "daily-research-ip-copyright",
+      "title": "Daily AI Copyright & IP Rulings Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ip-copyright/SKILL.md"
+    },
+    {
+      "name": "daily-research-app-store-policies",
+      "title": "Daily Apple & Google Store Policy Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-app-store-policies/SKILL.md"
+    },
+    {
+      "name": "daily-research-platform-tos",
+      "title": "Daily Major Platform API & ToS Changes Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-platform-tos/SKILL.md"
+    },
+    {
+      "name": "daily-research-open-source-licenses",
+      "title": "Daily Open-Source Licensing Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-open-source-licenses/SKILL.md"
+    },
+    {
+      "name": "daily-research-accessibility-laws",
+      "title": "Daily Digital Accessibility Mandates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-accessibility-laws/SKILL.md"
+    },
+    {
+      "name": "daily-research-consumer-protection",
+      "title": "Daily Subscription & Cancellation Laws Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-consumer-protection/SKILL.md"
+    },
+    {
+      "name": "daily-research-contractor-laws",
+      "title": "Daily Global Contractor & EOR Rules Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-contractor-laws/SKILL.md"
+    },
+    {
+      "name": "daily-research-shopify-ecosystem",
+      "title": "Daily Shopify & App Store Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-shopify-ecosystem/SKILL.md"
+    },
+    {
+      "name": "daily-research-digital-downloads",
+      "title": "Daily Templates, Notion & Digital Goods Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-digital-downloads/SKILL.md"
+    },
+    {
+      "name": "daily-research-print-on-demand",
+      "title": "Daily Print-on-Demand & Merch Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-print-on-demand/SKILL.md"
+    },
+    {
+      "name": "daily-research-amazon-fba",
+      "title": "Daily Marketplace & FBA Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-amazon-fba/SKILL.md"
+    },
+    {
+      "name": "daily-research-dtc-retention",
+      "title": "Daily DTC Subscription & Retention Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-dtc-retention/SKILL.md"
+    },
+    {
+      "name": "daily-research-checkout-conversion",
+      "title": "Daily Checkout & Cart Recovery Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-checkout-conversion/SKILL.md"
+    },
+    {
+      "name": "daily-research-logistics-3pl",
+      "title": "Daily Fulfillment & 3PL Benchmarks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-logistics-3pl/SKILL.md"
+    },
+    {
+      "name": "daily-research-ugc-creative",
+      "title": "Daily UGC & Ad Creative Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ugc-creative/SKILL.md"
+    },
+    {
+      "name": "daily-research-cross-border-ecom",
+      "title": "Daily Cross-Border E-Commerce Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-cross-border-ecom/SKILL.md"
+    },
+    {
+      "name": "daily-research-headless-commerce",
+      "title": "Daily Headless & Composable Commerce Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-headless-commerce/SKILL.md"
+    },
+    {
+      "name": "daily-research-healthtech",
+      "title": "Daily HealthTech & Wellness Apps Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-healthtech/SKILL.md"
+    },
+    {
+      "name": "daily-research-edtech",
+      "title": "Daily EdTech, Cohorts & Micro-Learning Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-edtech/SKILL.md"
+    },
+    {
+      "name": "daily-research-legaltech",
+      "title": "Daily LegalTech & Contract AI Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-legaltech/SKILL.md"
+    },
+    {
+      "name": "daily-research-proptech",
+      "title": "Daily PropTech & Real Estate Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-proptech/SKILL.md"
+    },
+    {
+      "name": "daily-research-hrtech",
+      "title": "Daily HRTech & Remote Hiring Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-hrtech/SKILL.md"
+    },
+    {
+      "name": "daily-research-climate-tech",
+      "title": "Daily ClimateTech & Carbon Accounting Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-climate-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-logistics-tech",
+      "title": "Daily Supply Chain & Logistics Software Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-logistics-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-cyber-compliance",
+      "title": "Daily Security & Compliance Automation Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-cyber-compliance/SKILL.md"
+    },
+    {
+      "name": "daily-research-creator-tools",
+      "title": "Daily Creator Economy Monetization Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-creator-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-media-publishing",
+      "title": "Daily Independent Media & Newsletters Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-media-publishing/SKILL.md"
+    },
+    {
+      "name": "daily-research-g2-capterra-gaps",
+      "title": "Daily G2 & Capterra Competitor Complaints Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-g2-capterra-gaps/SKILL.md"
+    },
+    {
+      "name": "daily-research-app-store-reviews",
+      "title": "Daily 1-Star App Review Opportunity Mining Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-app-store-reviews/SKILL.md"
+    },
+    {
+      "name": "daily-research-chrome-ext-gaps",
+      "title": "Daily Chrome Web Store Unmet Needs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-chrome-ext-gaps/SKILL.md"
+    },
+    {
+      "name": "daily-research-zapier-make-gaps",
+      "title": "Daily Missing Integration Requests Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-zapier-make-gaps/SKILL.md"
+    },
+    {
+      "name": "daily-research-rfp-tenders",
+      "title": "Daily Public Software RFPs & Tenders Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-rfp-tenders/SKILL.md"
+    },
+    {
+      "name": "daily-research-job-board-signals",
+      "title": "Daily Hiring Signals & Tool Adoption Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-job-board-signals/SKILL.md"
+    },
+    {
+      "name": "daily-research-freelance-demand",
+      "title": "Daily Upwork & Freelance Pain Points Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-freelance-demand/SKILL.md"
+    },
+    {
+      "name": "daily-research-support-forum-bugs",
+      "title": "Daily Public Forum Feature Requests Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-support-forum-bugs/SKILL.md"
+    },
+    {
+      "name": "daily-research-deprecation-opportunities",
+      "title": "Daily Sunsetting Products & Migration Demand Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-deprecation-opportunities/SKILL.md"
+    },
+    {
+      "name": "daily-research-enterprise-complaints",
+      "title": "Daily Legacy Software Frustrations Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-enterprise-complaints/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-changelogs",
+      "title": "Daily Competitor Feature Changelogs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-changelogs/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-pricing",
+      "title": "Daily Competitor Pricing Page Shifts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-pricing/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-hiring",
+      "title": "Daily Competitor Hiring & Focus Signals Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-hiring/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-ads",
+      "title": "Daily Competitor Ad Library & Messaging Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-ads/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-seo",
+      "title": "Daily Competitor Top Ranking Pages Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-seo/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-partnerships",
+      "title": "Daily Competitor Integrations & Alliances Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-partnerships/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-funding",
+      "title": "Daily Competitor Funding & M&A News Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-funding/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-outages",
+      "title": "Daily Competitor Downtime & Trust Issues Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-outages/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-reviews",
+      "title": "Daily Competitor Fresh Customer Reviews Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-reviews/SKILL.md"
+    },
+    {
+      "name": "daily-research-competitor-social",
+      "title": "Daily Competitor Social Announcements Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-competitor-social/SKILL.md"
+    },
+    {
+      "name": "daily-research-india-saas",
+      "title": "Daily India SaaS & Startup Ecosystem Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-india-saas/SKILL.md"
+    },
+    {
+      "name": "daily-research-us-b2b-tech",
+      "title": "Daily US B2B Software Buying Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-us-b2b-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-eu-tech-market",
+      "title": "Daily European SaaS & Compliance Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-eu-tech-market/SKILL.md"
+    },
+    {
+      "name": "daily-research-uk-fintech-saas",
+      "title": "Daily UK Tech & FinTech Market Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-uk-fintech-saas/SKILL.md"
+    },
+    {
+      "name": "daily-research-sea-digital",
+      "title": "Daily Southeast Asia Digital Economy Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-sea-digital/SKILL.md"
+    },
+    {
+      "name": "daily-research-latam-fintech",
+      "title": "Daily LatAm SaaS & Payments Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-latam-fintech/SKILL.md"
+    },
+    {
+      "name": "daily-research-mena-tech",
+      "title": "Daily MENA Startup & AI Investments Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-mena-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-apac-mobile",
+      "title": "Daily APAC Mobile & Gaming Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-apac-mobile/SKILL.md"
+    },
+    {
+      "name": "daily-research-canada-tech",
+      "title": "Daily Canada AI & Startup Ecosystem Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-canada-tech/SKILL.md"
+    },
+    {
+      "name": "daily-research-global-remote-trends",
+      "title": "Daily Global Remote Work & Async Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-global-remote-trends/SKILL.md"
+    },
+    {
+      "name": "daily-research-n8n-workflows",
+      "title": "Daily n8n & Self-Hosted Automation Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-n8n-workflows/SKILL.md"
+    },
+    {
+      "name": "daily-research-zapier-make",
+      "title": "Daily Zapier & Make Template Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-zapier-make/SKILL.md"
+    },
+    {
+      "name": "daily-research-airtable-notion",
+      "title": "Daily Airtable & Notion Ecosystem Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-airtable-notion/SKILL.md"
+    },
+    {
+      "name": "daily-research-retool-internal",
+      "title": "Daily Internal Tools & Retool Apps Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-retool-internal/SKILL.md"
+    },
+    {
+      "name": "daily-research-webflow-framer",
+      "title": "Daily Webflow & Framer Ecosystems Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-webflow-framer/SKILL.md"
+    },
+    {
+      "name": "daily-research-bubble-flutterflow",
+      "title": "Daily Bubble & FlutterFlow Apps Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-bubble-flutterflow/SKILL.md"
+    },
+    {
+      "name": "daily-research-rpa-browser-bots",
+      "title": "Daily Browser Automation & RPA Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-rpa-browser-bots/SKILL.md"
+    },
+    {
+      "name": "daily-research-webhook-patterns",
+      "title": "Daily Event-Driven Webhook Patterns Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-webhook-patterns/SKILL.md"
+    },
+    {
+      "name": "daily-research-voice-sms-bots",
+      "title": "Daily WhatsApp, SMS & Voice Bots Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-voice-sms-bots/SKILL.md"
+    },
+    {
+      "name": "daily-research-crm-automations",
+      "title": "Daily CRM & Pipeline Automations Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-crm-automations/SKILL.md"
+    },
+    {
+      "name": "daily-research-data-warehouses",
+      "title": "Daily DuckDB, ClickHouse & Warehouses Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-data-warehouses/SKILL.md"
+    },
+    {
+      "name": "daily-research-dbt-analytics",
+      "title": "Daily Analytics Engineering & dbt Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-dbt-analytics/SKILL.md"
+    },
+    {
+      "name": "daily-research-product-analytics",
+      "title": "Daily PostHog, Mixpanel & Telemetry Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-product-analytics/SKILL.md"
+    },
+    {
+      "name": "daily-research-web-scraping-tools",
+      "title": "Daily Crawlers & Extraction APIs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-web-scraping-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-synthetic-data",
+      "title": "Daily Synthetic Data & Privacy Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-synthetic-data/SKILL.md"
+    },
+    {
+      "name": "daily-research-bi-visualization",
+      "title": "Daily BI Tools & Embedded Dashboards Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-bi-visualization/SKILL.md"
+    },
+    {
+      "name": "daily-research-realtime-streaming",
+      "title": "Daily Kafka, Redpanda & Streaming Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-realtime-streaming/SKILL.md"
+    },
+    {
+      "name": "daily-research-etl-elt-tools",
+      "title": "Daily Fivetran, Airbyte & Sync Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-etl-elt-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-search-engines",
+      "title": "Daily Typesense, Meilisearch & Algolia Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-search-engines/SKILL.md"
+    },
+    {
+      "name": "daily-research-graph-databases",
+      "title": "Daily Neo4j & Knowledge Graphs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-graph-databases/SKILL.md"
+    },
+    {
+      "name": "daily-research-ui-component-kits",
+      "title": "Daily Shadcn, Radix & UI Libraries Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ui-component-kits/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-ux-patterns",
+      "title": "Daily AI Copilot & Chat UX Patterns Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-ux-patterns/SKILL.md"
+    },
+    {
+      "name": "daily-research-onboarding-flows",
+      "title": "Daily SaaS Onboarding Benchmarks Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-onboarding-flows/SKILL.md"
+    },
+    {
+      "name": "daily-research-pricing-page-ux",
+      "title": "Daily High-Converting Pricing Pages Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-pricing-page-ux/SKILL.md"
+    },
+    {
+      "name": "daily-research-mobile-ui-trends",
+      "title": "Daily iOS & Android Design Patterns Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-mobile-ui-trends/SKILL.md"
+    },
+    {
+      "name": "daily-research-microcopy-ux",
+      "title": "Daily UX Writing & Error States Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-microcopy-ux/SKILL.md"
+    },
+    {
+      "name": "daily-research-motion-microinteractions",
+      "title": "Daily Web Animation & Rive/Framer Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-motion-microinteractions/SKILL.md"
+    },
+    {
+      "name": "daily-research-accessibility-audits",
+      "title": "Daily WCAG & Inclusive Design Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-accessibility-audits/SKILL.md"
+    },
+    {
+      "name": "daily-research-dark-mode-systems",
+      "title": "Daily Theme & Design Token Systems Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-dark-mode-systems/SKILL.md"
+    },
+    {
+      "name": "daily-research-brand-visuals",
+      "title": "Daily SaaS Brand & Visual Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-brand-visuals/SKILL.md"
+    },
+    {
+      "name": "daily-research-b2b-trigger-events",
+      "title": "Daily B2B Buying Trigger Events Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-b2b-trigger-events/SKILL.md"
+    },
+    {
+      "name": "daily-research-exec-job-changes",
+      "title": "Daily New VP/CXO Hire Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-exec-job-changes/SKILL.md"
+    },
+    {
+      "name": "daily-research-tech-stack-leads",
+      "title": "Daily Technographic Lead Signals Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-tech-stack-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-newly-funded-leads",
+      "title": "Daily Recently Funded Startup Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-newly-funded-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-agency-partner-leads",
+      "title": "Daily Agency & Consultant Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-agency-partner-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-podcast-guest-leads",
+      "title": "Daily Podcast & Media Opportunity Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-podcast-guest-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-conference-speakers",
+      "title": "Daily Event & Conference Lead Lists Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-conference-speakers/SKILL.md"
+    },
+    {
+      "name": "daily-research-ecommerce-store-leads",
+      "title": "Daily Fast-Growing DTC Store Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ecommerce-store-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-developer-tool-leads",
+      "title": "Daily Active OSS & Dev Team Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-developer-tool-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-local-smb-leads",
+      "title": "Daily Local SMB Digitization Leads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-local-smb-leads/SKILL.md"
+    },
+    {
+      "name": "daily-research-tech-news-digest",
+      "title": "Daily Daily Tech & AI Top Stories Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-tech-news-digest/SKILL.md"
+    },
+    {
+      "name": "daily-research-x-viral-threads",
+      "title": "Daily Viral Founder & Tech Threads Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-x-viral-threads/SKILL.md"
+    },
+    {
+      "name": "daily-research-hn-frontpage-themes",
+      "title": "Daily Hacker News Frontpage Themes Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-hn-frontpage-themes/SKILL.md"
+    },
+    {
+      "name": "daily-research-reddit-hot-topics",
+      "title": "Daily Trending Subreddit Discussions Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-reddit-hot-topics/SKILL.md"
+    },
+    {
+      "name": "daily-research-youtube-tech-trends",
+      "title": "Daily Trending Tech & Tutorial Videos Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-youtube-tech-trends/SKILL.md"
+    },
+    {
+      "name": "daily-research-newsletter-roundups",
+      "title": "Daily Top Industry Newsletter Takes Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-newsletter-roundups/SKILL.md"
+    },
+    {
+      "name": "daily-research-podcast-highlights",
+      "title": "Daily Key Founder Podcast Insights Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-podcast-highlights/SKILL.md"
+    },
+    {
+      "name": "daily-research-github-daily-stars",
+      "title": "Daily GitHub Daily Trending Projects Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-github-daily-stars/SKILL.md"
+    },
+    {
+      "name": "daily-research-product-hunt-daily",
+      "title": "Daily Product Hunt Daily Top Launches Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-product-hunt-daily/SKILL.md"
+    },
+    {
+      "name": "daily-research-indie-hackers-wins",
+      "title": "Daily Indie Hackers Revenue Milestones Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-indie-hackers-wins/SKILL.md"
+    },
+    {
+      "name": "daily-research-npm-pypi-advisories",
+      "title": "Daily NPM & PyPI Supply Chain Alerts Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-npm-pypi-advisories/SKILL.md"
+    },
+    {
+      "name": "daily-research-cloud-provider-status",
+      "title": "Daily AWS, GCP & Cloudflare Incidents Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-cloud-provider-status/SKILL.md"
+    },
+    {
+      "name": "daily-research-ssl-domain-trends",
+      "title": "Daily DNS, Email Auth & Deliverability Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ssl-domain-trends/SKILL.md"
+    },
+    {
+      "name": "daily-research-bot-abuse-patterns",
+      "title": "Daily Scraping & API Abuse Defenses Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-bot-abuse-patterns/SKILL.md"
+    },
+    {
+      "name": "daily-research-auth-standards",
+      "title": "Daily Passkeys, OAuth & WebAuthn Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-auth-standards/SKILL.md"
+    },
+    {
+      "name": "daily-research-zero-trust-indie",
+      "title": "Daily Zero-Trust for Small Teams Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-zero-trust-indie/SKILL.md"
+    },
+    {
+      "name": "daily-research-backup-ransomware",
+      "title": "Daily Backup & Ransomware Defenses Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-backup-ransomware/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-prompt-threats",
+      "title": "Daily LLM Jailbreak & Injection News Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-prompt-threats/SKILL.md"
+    },
+    {
+      "name": "daily-research-browser-security",
+      "title": "Daily CSP, CORS & Extension Security Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-browser-security/SKILL.md"
+    },
+    {
+      "name": "daily-research-mobile-security",
+      "title": "Daily Mobile App Security Advisories Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-mobile-security/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-coding-assistants",
+      "title": "Daily AI Coding IDE & CLI Updates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-coding-assistants/SKILL.md"
+    },
+    {
+      "name": "daily-research-knowledge-management",
+      "title": "Daily PKM, Obsidian & Second Brain Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-knowledge-management/SKILL.md"
+    },
+    {
+      "name": "daily-research-calendar-focus-apps",
+      "title": "Daily Time-Blocking & Focus Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-calendar-focus-apps/SKILL.md"
+    },
+    {
+      "name": "daily-research-async-video-tools",
+      "title": "Daily Loom & Async Comms Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-async-video-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-meeting-notes-ai",
+      "title": "Daily AI Meeting & Transcription Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-meeting-notes-ai/SKILL.md"
+    },
+    {
+      "name": "daily-research-inbox-clients",
+      "title": "Daily Email Clients & Triage Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-inbox-clients/SKILL.md"
+    },
+    {
+      "name": "daily-research-crm-indie-tools",
+      "title": "Daily Lightweight Solo-Founder CRMs Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-crm-indie-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-project-trackers",
+      "title": "Daily Linear, Jira & Lightweight Trackers Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-project-trackers/SKILL.md"
+    },
+    {
+      "name": "daily-research-doc-collaboration",
+      "title": "Daily Docs, Wikis & Spec Tools Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-doc-collaboration/SKILL.md"
+    },
+    {
+      "name": "daily-research-hardware-desk-setups",
+      "title": "Daily Ergonomic & Mobile Founder Gear Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-hardware-desk-setups/SKILL.md"
+    },
+    {
+      "name": "daily-research-free-mini-tools",
+      "title": "Daily Free Calculator & Mini-Tool Ideas Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-free-mini-tools/SKILL.md"
+    },
+    {
+      "name": "daily-research-referral-programs",
+      "title": "Daily Viral Referral Program Examples Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-referral-programs/SKILL.md"
+    },
+    {
+      "name": "daily-research-waitlist-mechanics",
+      "title": "Daily Pre-Launch Waitlist Mechanics Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-waitlist-mechanics/SKILL.md"
+    },
+    {
+      "name": "daily-research-freemium-benchmarks",
+      "title": "Daily Freemium vs Free-Trial Data Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-freemium-benchmarks/SKILL.md"
+    },
+    {
+      "name": "daily-research-annual-plan-offers",
+      "title": "Daily Annual Upgrade Campaign Ideas Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-annual-plan-offers/SKILL.md"
+    },
+    {
+      "name": "daily-research-winback-campaigns",
+      "title": "Daily Churned User Win-Back Tactics Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-winback-campaigns/SKILL.md"
+    },
+    {
+      "name": "daily-research-partnership-bundles",
+      "title": "Daily Co-Marketing & App Bundles Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-partnership-bundles/SKILL.md"
+    },
+    {
+      "name": "daily-research-lifetime-deal-pros-cons",
+      "title": "Daily LTD & AppSumo Market Data Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-lifetime-deal-pros-cons/SKILL.md"
+    },
+    {
+      "name": "daily-research-affiliate-benchmarks",
+      "title": "Daily SaaS Affiliate Commission Data Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-affiliate-benchmarks/SKILL.md"
+    },
+    {
+      "name": "daily-research-sponsorship-roi",
+      "title": "Daily Newsletter & Creator Sponsorship ROI Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-sponsorship-roi/SKILL.md"
+    },
+    {
+      "name": "daily-research-ai-engineering-skills",
+      "title": "Daily In-Demand AI Engineering Skills Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-ai-engineering-skills/SKILL.md"
+    },
+    {
+      "name": "daily-research-fractional-roles",
+      "title": "Daily Fractional CXO & Consulting Rates Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-fractional-roles/SKILL.md"
+    },
+    {
+      "name": "daily-research-technical-writing",
+      "title": "Daily Docs & Developer Advocacy Trends Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-technical-writing/SKILL.md"
+    },
+    {
+      "name": "daily-research-public-speaking-cfps",
+      "title": "Daily Tech Conference CFPs & Deadlines Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-public-speaking-cfps/SKILL.md"
+    },
+    {
+      "name": "daily-research-book-research-digests",
+      "title": "Daily New Business & Tech Book Insights Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-book-research-digests/SKILL.md"
+    },
+    {
+      "name": "daily-research-academic-ai-papers",
+      "title": "Daily Daily ArXiv AI Paper Summaries Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-academic-ai-papers/SKILL.md"
+    },
+    {
+      "name": "daily-research-patent-filings",
+      "title": "Daily Notable Tech Patent Filings Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-patent-filings/SKILL.md"
+    },
+    {
+      "name": "daily-research-open-datasets",
+      "title": "Daily New Public & Government Datasets Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-open-datasets/SKILL.md"
+    },
+    {
+      "name": "daily-research-benchmark-reports",
+      "title": "Daily Annual Industry Benchmark Reports Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-benchmark-reports/SKILL.md"
+    },
+    {
+      "name": "daily-research-macro-tech-outlook",
+      "title": "Daily Macro Software Spend Outlook Researcher",
+      "department": "Scheduled Daily Web Research",
+      "path": "11-scheduled-web-research/daily-research-macro-tech-outlook/SKILL.md"
+    },
+    {
+      "name": "fb-product-mentions-monitor",
+      "title": "Facebook Product Mentions Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/fb-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "fb-groups-pain-point-miner",
+      "title": "Facebook Groups Pain-Point Miner",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/fb-groups-pain-point-miner/SKILL.md"
+    },
+    {
+      "name": "ig-product-mentions-monitor",
+      "title": "Instagram Product Mentions Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/ig-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "ig-reels-trend-scout",
+      "title": "Instagram Reels Trend Scout",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/ig-reels-trend-scout/SKILL.md"
+    },
+    {
+      "name": "x-product-mentions-monitor",
+      "title": "X (Twitter) Product Mentions Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/x-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "x-competitor-sentiment-tracker",
+      "title": "X Competitor Sentiment Tracker",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/x-competitor-sentiment-tracker/SKILL.md"
+    },
+    {
+      "name": "threads-product-monitor",
+      "title": "Threads Product & Brand Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/threads-product-monitor/SKILL.md"
+    },
+    {
+      "name": "threads-community-pulse",
+      "title": "Threads Community Pulse Analyst",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/threads-community-pulse/SKILL.md"
+    },
+    {
+      "name": "hn-product-mentions-monitor",
+      "title": "Hacker News Product Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/hn-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "hn-pain-point-scout",
+      "title": "Hacker News Pain-Point Scout",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/hn-pain-point-scout/SKILL.md"
+    },
+    {
+      "name": "reddit-product-mentions-monitor",
+      "title": "Reddit Product Mentions Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/reddit-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "reddit-buying-intent-hunter",
+      "title": "Reddit Buying-Intent Lead Hunter",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/reddit-buying-intent-hunter/SKILL.md"
+    },
+    {
+      "name": "github-discussions-monitor",
+      "title": "GitHub Discussions & Issues Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/github-discussions-monitor/SKILL.md"
+    },
+    {
+      "name": "github-trending-ecosystem-watch",
+      "title": "GitHub Ecosystem & Stars Watcher",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/github-trending-ecosystem-watch/SKILL.md"
+    },
+    {
+      "name": "devto-hashnode-monitor",
+      "title": "Dev.to & Hashnode Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/devto-hashnode-monitor/SKILL.md"
+    },
+    {
+      "name": "lobsters-tech-forum-monitor",
+      "title": "Lobste.rs & Tech Forum Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/lobsters-tech-forum-monitor/SKILL.md"
+    },
+    {
+      "name": "stackoverflow-qa-monitor",
+      "title": "Stack Overflow & Q&A Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/stackoverflow-qa-monitor/SKILL.md"
+    },
+    {
+      "name": "indiehackers-product-monitor",
+      "title": "Indie Hackers Product Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/indiehackers-product-monitor/SKILL.md"
+    },
+    {
+      "name": "producthunt-comments-analyst",
+      "title": "Product Hunt Comments Analyst",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/producthunt-comments-analyst/SKILL.md"
+    },
+    {
+      "name": "linkedin-product-mentions-monitor",
+      "title": "LinkedIn Product Mentions Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/linkedin-product-mentions-monitor/SKILL.md"
+    },
+    {
+      "name": "youtube-comments-product-analyst",
+      "title": "YouTube Comments Product Analyst",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/youtube-comments-product-analyst/SKILL.md"
+    },
+    {
+      "name": "discord-slack-community-monitor",
+      "title": "Discord & Slack Community Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/discord-slack-community-monitor/SKILL.md"
+    },
+    {
+      "name": "bluesky-mastodon-monitor",
+      "title": "Bluesky & Mastodon Tech Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/bluesky-mastodon-monitor/SKILL.md"
+    },
+    {
+      "name": "tiktok-product-buzz-monitor",
+      "title": "TikTok Product Buzz Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/tiktok-product-buzz-monitor/SKILL.md"
+    },
+    {
+      "name": "quora-forum-intent-monitor",
+      "title": "Quora & Niche Forum Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/quora-forum-intent-monitor/SKILL.md"
+    },
+    {
+      "name": "g2-trustpilot-review-monitor",
+      "title": "G2 & Trustpilot Review Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/g2-trustpilot-review-monitor/SKILL.md"
+    },
+    {
+      "name": "appstore-playstore-review-miner",
+      "title": "App Store & Play Store Review Miner",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/appstore-playstore-review-miner/SKILL.md"
+    },
+    {
+      "name": "chrome-webstore-review-monitor",
+      "title": "Chrome Web Store Review Monitor",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/chrome-webstore-review-monitor/SKILL.md"
+    },
+    {
+      "name": "cross-platform-product-importance",
+      "title": "Cross-Platform Product Importance Scorer",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/cross-platform-product-importance/SKILL.md"
+    },
+    {
+      "name": "social-crisis-spike-detector",
+      "title": "Social Spike & PR Alert Detector",
+      "department": "Social & Dev Platform Monitoring",
+      "path": "12-social-community-monitoring/social-crisis-spike-detector/SKILL.md"
+    },
+    {
+      "name": "pdf-daily-leads-exporter",
+      "title": "Daily Leads PDF Exporter",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-daily-leads-exporter/SKILL.md"
+    },
+    {
+      "name": "pdf-research-report-generator",
+      "title": "Daily Research PDF Generator",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-research-report-generator/SKILL.md"
+    },
+    {
+      "name": "pdf-social-signals-digest",
+      "title": "Social & Dev Signals PDF Digest",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-social-signals-digest/SKILL.md"
+    },
+    {
+      "name": "pdf-competitor-intel-brief",
+      "title": "Competitor Intel PDF Brief",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-competitor-intel-brief/SKILL.md"
+    },
+    {
+      "name": "pdf-reddit-hn-leads-compiler",
+      "title": "Reddit & HN Leads PDF Compiler",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-reddit-hn-leads-compiler/SKILL.md"
+    },
+    {
+      "name": "pdf-x-threads-leads-compiler",
+      "title": "X & Threads Leads PDF Compiler",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-x-threads-leads-compiler/SKILL.md"
+    },
+    {
+      "name": "pdf-fb-ig-leads-compiler",
+      "title": "FB & IG Leads PDF Compiler",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-fb-ig-leads-compiler/SKILL.md"
+    },
+    {
+      "name": "pdf-github-dev-leads-compiler",
+      "title": "GitHub & Dev Leads PDF Compiler",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-github-dev-leads-compiler/SKILL.md"
+    },
+    {
+      "name": "connector-folder-router",
+      "title": "Connector Storage & Folder Router",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/connector-folder-router/SKILL.md"
+    },
+    {
+      "name": "scheduled-delivery-coordinator",
+      "title": "Scheduled PDF Delivery Coordinator",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/scheduled-delivery-coordinator/SKILL.md"
+    },
+    {
+      "name": "pdf-weekly-exec-summary",
+      "title": "Weekly Executive PDF Summary",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-weekly-exec-summary/SKILL.md"
+    },
+    {
+      "name": "pdf-monthly-board-packet",
+      "title": "Monthly Solo-Board PDF Packet",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-monthly-board-packet/SKILL.md"
+    },
+    {
+      "name": "pdf-sales-prospect-dossier",
+      "title": "Sales Prospect PDF Dossier",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-sales-prospect-dossier/SKILL.md"
+    },
+    {
+      "name": "pdf-customer-feedback-report",
+      "title": "Customer Feedback PDF Report",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-customer-feedback-report/SKILL.md"
+    },
+    {
+      "name": "pdf-seo-opportunities-report",
+      "title": "SEO Keyword & Gap PDF Report",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-seo-opportunities-report/SKILL.md"
+    },
+    {
+      "name": "pdf-security-audit-digest",
+      "title": "Security & CVE PDF Digest",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-security-audit-digest/SKILL.md"
+    },
+    {
+      "name": "pdf-funding-grants-tracker",
+      "title": "Grants & Funding Leads PDF",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-funding-grants-tracker/SKILL.md"
+    },
+    {
+      "name": "pdf-partnership-targets-sheet",
+      "title": "Partnership Targets PDF Sheet",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-partnership-targets-sheet/SKILL.md"
+    },
+    {
+      "name": "pdf-churn-risk-accounts-report",
+      "title": "Churn-Risk Accounts PDF Report",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-churn-risk-accounts-report/SKILL.md"
+    },
+    {
+      "name": "pdf-archive-indexer",
+      "title": "PDF Report Archive Indexer",
+      "department": "PDF Reports & Connector Delivery",
+      "path": "13-pdf-leads-delivery/pdf-archive-indexer/SKILL.md"
+    },
+    {
+      "name": "uptime-ssl-domain-watchdog",
+      "title": "Uptime, SSL & Domain Watchdog",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/uptime-ssl-domain-watchdog/SKILL.md"
+    },
+    {
+      "name": "api-deprecation-watcher",
+      "title": "API & SDK Deprecation Watcher",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/api-deprecation-watcher/SKILL.md"
+    },
+    {
+      "name": "review-reputation-responder",
+      "title": "Review & Reputation Responder",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/review-reputation-responder/SKILL.md"
+    },
+    {
+      "name": "affiliate-backlink-scout",
+      "title": "Affiliate & Backlink Scout",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/affiliate-backlink-scout/SKILL.md"
+    },
+    {
+      "name": "grant-accelerator-deadline-tracker",
+      "title": "Grant & Accelerator Deadline Tracker",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/grant-accelerator-deadline-tracker/SKILL.md"
+    },
+    {
+      "name": "warm-intro-network-mapper",
+      "title": "Warm Intro & Network Mapper",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/warm-intro-network-mapper/SKILL.md"
+    },
+    {
+      "name": "tax-compliance-calendar-guard",
+      "title": "Tax & Filing Calendar Guard",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/tax-compliance-calendar-guard/SKILL.md"
+    },
+    {
+      "name": "saas-subscription-renewal-alert",
+      "title": "Vendor Renewal & Price-Hike Alert",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/saas-subscription-renewal-alert/SKILL.md"
+    },
+    {
+      "name": "ai-token-bill-spike-guard",
+      "title": "AI Token & Cloud Bill Spike Guard",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/ai-token-bill-spike-guard/SKILL.md"
+    },
+    {
+      "name": "brand-impersonation-squatter-watch",
+      "title": "Brand & Domain Impersonation Watch",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/brand-impersonation-squatter-watch/SKILL.md"
+    },
+    {
+      "name": "accessibility-legal-demand-guard",
+      "title": "Accessibility & Compliance Guard",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/accessibility-legal-demand-guard/SKILL.md"
+    },
+    {
+      "name": "backup-restore-drill-reminder",
+      "title": "Backup & Restore Drill Reminder",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/backup-restore-drill-reminder/SKILL.md"
+    },
+    {
+      "name": "founder-health-energy-guard",
+      "title": "Founder Energy & Burnout Guard",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/founder-health-energy-guard/SKILL.md"
+    },
+    {
+      "name": "customer-anniversary-milestone-bot",
+      "title": "Customer Milestone & Delight Agent",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/customer-anniversary-milestone-bot/SKILL.md"
+    },
+    {
+      "name": "post-launch-30day-audit",
+      "title": "Post-Launch 30-Day Audit Agent",
+      "department": "Essential Watchdogs & Alerts",
+      "path": "14-essential-watchdogs/post-launch-30day-audit/SKILL.md"
+    }
+  ]
+}
